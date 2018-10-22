@@ -13,6 +13,8 @@
 #ifndef WOLF3D_H_H
 # define WOLF3D_H
 
+# define MAPWIDTH 24
+# define MAPHEIGHT 24
 # define WDTH 800
 # define HGHT 600
 

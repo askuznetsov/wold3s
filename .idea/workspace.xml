@@ -2,8 +2,8 @@
 <project version="4">
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true" buildAllGenerated="true">
     <generated>
-      <config projectName="fractol" targetName="libft.a" />
-      <config projectName="fractol" targetName="fractol" />
+      <config projectName="wolf3d" targetName="wolf3d" />
+      <config projectName="wolf3d" targetName="libft.a" />
     </generated>
   </component>
   <component name="CMakeSettings">
@@ -12,7 +12,12 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d293faf0-f1b8-4918-b0a7-84ae597dafb5" name="Default Changelist" comment="" />
+    <list default="true" id="d293faf0-f1b8-4918-b0a7-84ae597dafb5" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Includes/wolf3d.h" beforeDir="false" afterPath="$PROJECT_DIR$/Includes/wolf3d.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Srcs/main.c" beforeDir="false" afterPath="$PROJECT_DIR$/Srcs/main.c" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <ignored path="$PROJECT_DIR$/libft/CMakeFiles/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -26,15 +31,18 @@
     <session id="-244175848">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="2" />
+          <entry key="project.closed" value="3" />
           <entry key="project.open.time.10" value="1" />
           <entry key="project.open.time.3" value="1" />
-          <entry key="project.opened" value="2" />
+          <entry key="project.open.time.31" value="1" />
+          <entry key="project.open.time.4" value="1" />
+          <entry key="project.opened" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="Makefile" value="1" />
+          <entry key="c" value="1" />
           <entry key="h" value="1" />
           <entry key="txt" value="1" />
         </counts>
@@ -42,28 +50,31 @@
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CMakeLists.txt" value="1" />
-          <entry key="ObjectiveC" value="1" />
+          <entry key="ObjectiveC" value="2" />
           <entry key="PLAIN_TEXT" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="Makefile" value="12" />
-          <entry key="h" value="12" />
+          <entry key="c" value="140" />
+          <entry key="h" value="51" />
           <entry key="txt" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="CMakeLists.txt" value="6" />
-          <entry key="ObjectiveC" value="12" />
+          <entry key="ObjectiveC" value="191" />
           <entry key="PLAIN_TEXT" value="12" />
         </counts>
       </usages-collector>
+      <usages-collector id="statistics.cidr.testingFrameworks.usages" />
+      <usages-collector id="statistics.vcs.git.usages" />
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
           <provider selected="true" editor-type-id="text-editor">
@@ -73,18 +84,34 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Makefile">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Srcs/main.c">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="25" column="16" selection-start-line="25" selection-start-column="16" selection-end-line="25" selection-end-column="16" />
+            <state relative-caret-position="550">
+              <caret line="43" column="81" lean-forward="true" selection-start-line="43" selection-start-column="81" selection-end-line="43" selection-end-column="81" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Makefile">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="165">
+              <caret line="11" selection-start-line="11" selection-end-line="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Includes/wolf3d.h">
-          <provider selected="true" editor-type-id="text-editor" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="270">
+              <caret line="18" column="17" lean-forward="true" selection-start-line="18" selection-start-column="17" selection-end-line="18" selection-end-column="17" />
+              <folding>
+                <element signature="e#967#986#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
         </entry>
       </file>
     </leaf>
@@ -98,6 +125,7 @@
         <option value="$PROJECT_DIR$/CMakeLists.txt" />
         <option value="$PROJECT_DIR$/Makefile" />
         <option value="$PROJECT_DIR$/Includes/wolf3d.h" />
+        <option value="$PROJECT_DIR$/Srcs/main.c" />
       </list>
     </option>
   </component>
@@ -107,9 +135,11 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" fullScreen="true">
-    <option name="width" value="2560" />
-    <option name="height" value="1440" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="1213" />
+    <option name="y" value="23" />
+    <option name="width" value="1347" />
+    <option name="height" value="1337" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -120,16 +150,16 @@
         <subPane>
           <expand>
             <path>
-              <item name="fractol" type="b2602c69:ProjectViewProjectNode" />
+              <item name="wolf3d" type="b2602c69:ProjectViewProjectNode" />
               <item name="wolf3d" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="fractol" type="b2602c69:ProjectViewProjectNode" />
+              <item name="wolf3d" type="b2602c69:ProjectViewProjectNode" />
               <item name="wolf3d" type="462c0819:PsiDirectoryNode" />
               <item name="Includes" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="fractol" type="b2602c69:ProjectViewProjectNode" />
+              <item name="wolf3d" type="b2602c69:ProjectViewProjectNode" />
               <item name="wolf3d" type="462c0819:PsiDirectoryNode" />
               <item name="Srcs" type="462c0819:PsiDirectoryNode" />
             </path>
@@ -143,7 +173,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -157,25 +187,25 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.fractol">
+  <component name="RunManager" selected="Application.wolf3d">
     <configuration name="Build All" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" CONFIG_NAME="Debug" EXPLICIT_BUILD_TARGET_NAME="all">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="fractol" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="fractol" TARGET_NAME="fractol" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="fractol" RUN_TARGET_NAME="fractol">
+    <configuration name="libft.a" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="wolf3d" TARGET_NAME="libft.a" CONFIG_NAME="Debug">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="libft.a" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="fractol" TARGET_NAME="libft.a" CONFIG_NAME="Debug">
+    <configuration name="wolf3d" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="wolf3d" TARGET_NAME="wolf3d" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="wolf3d" RUN_TARGET_NAME="wolf3d">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
     <list>
       <item itemvalue="Application.Build All" />
-      <item itemvalue="Application.fractol" />
+      <item itemvalue="Application.wolf3d" />
       <item itemvalue="Application.libft.a" />
     </list>
   </component>
@@ -191,16 +221,19 @@
       <updated>1540029863533</updated>
       <workItem from="1540029870638" duration="25000" />
       <workItem from="1540029916181" duration="256000" />
+      <workItem from="1540030186009" duration="210000" />
+      <workItem from="1540208221044" duration="761000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="281000" />
+    <option name="totallyTimeSpent" value="1252000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="2560" height="1440" extended-state="0" />
+    <frame x="1213" y="23" width="1347" height="1337" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.13661636" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26666668" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -211,7 +244,7 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.3633388" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="10" show_stripe_button="false" />
       <window_info anchor="bottom" id="CMake" order="11" />
@@ -237,13 +270,27 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Makefile">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="25" column="16" selection-start-line="25" selection-start-column="16" selection-end-line="25" selection-end-column="16" />
+        <state relative-caret-position="165">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Includes/wolf3d.h">
-      <provider selected="true" editor-type-id="text-editor" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="17" lean-forward="true" selection-start-line="18" selection-start-column="17" selection-end-line="18" selection-end-column="17" />
+          <folding>
+            <element signature="e#967#986#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Srcs/main.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="550">
+          <caret line="43" column="81" lean-forward="true" selection-start-line="43" selection-start-column="81" selection-end-line="43" selection-end-column="81" />
+        </state>
+      </provider>
     </entry>
   </component>
 </project>
