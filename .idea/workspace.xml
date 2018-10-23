@@ -6,17 +6,98 @@
       <config projectName="wolf3d" targetName="libft.a" />
     </generated>
   </component>
-  <component name="CMakeSettings">
+  <component name="CMakeSettings" AUTO_RELOAD="true">
     <configurations>
       <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" />
     </configurations>
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d293faf0-f1b8-4918-b0a7-84ae597dafb5" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/Srcs/read_map.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Includes/wolf3d.h" beforeDir="false" afterPath="$PROJECT_DIR$/Includes/wolf3d.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/Makefile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Srcs/main.c" beforeDir="false" afterPath="$PROJECT_DIR$/Srcs/main.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/wolf3d.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/wolf3d.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/wolf3d.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/wolf3d.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/wolf3d.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/wolf3d.dir/cmake_clean.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/wolf3d.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/wolf3d.dir/depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/wolf3d.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/wolf3d.dir/link.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/wolf3d.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/wolf3d.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/wolf3d.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/wolf3d.cbp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libft/CMakeFiles/CMakeFiles/libft.a.dir/C.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/libft/CMakeFiles/CMakeFiles/libft.a.dir/C.includecache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libft/CMakeFiles/CMakeFiles/libft.a.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/libft/CMakeFiles/CMakeFiles/libft.a.dir/depend.internal" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libft/CMakeFiles/CMakeFiles/libft.a.dir/ft_abs.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/libft/CMakeFiles/CMakeFiles/libft.a.dir/ft_abs.c.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libft/CMakeFiles/CMakeFiles/libft.a.dir/ft_atoi.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/libft/CMakeFiles/CMakeFiles/libft.a.dir/ft_atoi.c.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libft/CMakeFiles/CMakeFiles/libft.a.dir/ft_bzero.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/libft/CMakeFiles/CMakeFiles/libft.a.dir/ft_bzero.c.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libft/CMakeFiles/CMakeFiles/libft.a.dir/ft_count_letters.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/libft/CMakeFiles/CMakeFiles/libft.a.dir/ft_count_letters.c.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libft/CMakeFiles/CMakeFiles/libft.a.dir/ft_count_word.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/libft/CMakeFiles/CMakeFiles/libft.a.dir/ft_count_word.c.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libft/CMakeFiles/CMakeFiles/libft.a.dir/ft_is_delimeter.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/libft/CMakeFiles/CMakeFiles/libft.a.dir/ft_is_delimeter.c.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libft/CMakeFiles/CMakeFiles/libft.a.dir/ft_isalnum.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/libft/CMakeFiles/CMakeFiles/libft.a.dir/ft_isalnum.c.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libft/CMakeFiles/CMakeFiles/libft.a.dir/ft_isalpha.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/libft/CMakeFiles/CMakeFiles/libft.a.dir/ft_isalpha.c.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libft/CMakeFiles/CMakeFiles/libft.a.dir/ft_isascii.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/libft/CMakeFiles/CMakeFiles/libft.a.dir/ft_isascii.c.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libft/CMakeFiles/CMakeFiles/libft.a.dir/ft_isdigit.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/libft/CMakeFiles/CMakeFiles/libft.a.dir/ft_isdigit.c.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libft/CMakeFiles/CMakeFiles/libft.a.dir/ft_isprint.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/libft/CMakeFiles/CMakeFiles/libft.a.dir/ft_isprint.c.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libft/CMakeFiles/CMakeFiles/libft.a.dir/ft_itoa.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/libft/CMakeFiles/CMakeFiles/libft.a.dir/ft_itoa.c.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libft/CMakeFiles/CMakeFiles/libft.a.dir/ft_lstadd.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/libft/CMakeFiles/CMakeFiles/libft.a.dir/ft_lstadd.c.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libft/CMakeFiles/CMakeFiles/libft.a.dir/ft_lstdel.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/libft/CMakeFiles/CMakeFiles/libft.a.dir/ft_lstdel.c.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libft/CMakeFiles/CMakeFiles/libft.a.dir/ft_lstdelone.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/libft/CMakeFiles/CMakeFiles/libft.a.dir/ft_lstdelone.c.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libft/CMakeFiles/CMakeFiles/libft.a.dir/ft_lstiter.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/libft/CMakeFiles/CMakeFiles/libft.a.dir/ft_lstiter.c.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libft/CMakeFiles/CMakeFiles/libft.a.dir/ft_lstmap.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/libft/CMakeFiles/CMakeFiles/libft.a.dir/ft_lstmap.c.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libft/CMakeFiles/CMakeFiles/libft.a.dir/ft_lstnew.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/libft/CMakeFiles/CMakeFiles/libft.a.dir/ft_lstnew.c.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libft/CMakeFiles/CMakeFiles/libft.a.dir/ft_memalloc.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/libft/CMakeFiles/CMakeFiles/libft.a.dir/ft_memalloc.c.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libft/CMakeFiles/CMakeFiles/libft.a.dir/ft_memccpy.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/libft/CMakeFiles/CMakeFiles/libft.a.dir/ft_memccpy.c.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libft/CMakeFiles/CMakeFiles/libft.a.dir/ft_memchr.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/libft/CMakeFiles/CMakeFiles/libft.a.dir/ft_memchr.c.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libft/CMakeFiles/CMakeFiles/libft.a.dir/ft_memcmp.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/libft/CMakeFiles/CMakeFiles/libft.a.dir/ft_memcmp.c.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libft/CMakeFiles/CMakeFiles/libft.a.dir/ft_memcpy.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/libft/CMakeFiles/CMakeFiles/libft.a.dir/ft_memcpy.c.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libft/CMakeFiles/CMakeFiles/libft.a.dir/ft_memdel.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/libft/CMakeFiles/CMakeFiles/libft.a.dir/ft_memdel.c.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libft/CMakeFiles/CMakeFiles/libft.a.dir/ft_memmove.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/libft/CMakeFiles/CMakeFiles/libft.a.dir/ft_memmove.c.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libft/CMakeFiles/CMakeFiles/libft.a.dir/ft_memset.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/libft/CMakeFiles/CMakeFiles/libft.a.dir/ft_memset.c.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libft/CMakeFiles/CMakeFiles/libft.a.dir/ft_putchar.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/libft/CMakeFiles/CMakeFiles/libft.a.dir/ft_putchar.c.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libft/CMakeFiles/CMakeFiles/libft.a.dir/ft_putchar_fd.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/libft/CMakeFiles/CMakeFiles/libft.a.dir/ft_putchar_fd.c.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libft/CMakeFiles/CMakeFiles/libft.a.dir/ft_putendl.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/libft/CMakeFiles/CMakeFiles/libft.a.dir/ft_putendl.c.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libft/CMakeFiles/CMakeFiles/libft.a.dir/ft_putendl_fd.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/libft/CMakeFiles/CMakeFiles/libft.a.dir/ft_putendl_fd.c.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libft/CMakeFiles/CMakeFiles/libft.a.dir/ft_putnbr.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/libft/CMakeFiles/CMakeFiles/libft.a.dir/ft_putnbr.c.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libft/CMakeFiles/CMakeFiles/libft.a.dir/ft_putnbr_fd.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/libft/CMakeFiles/CMakeFiles/libft.a.dir/ft_putnbr_fd.c.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libft/CMakeFiles/CMakeFiles/libft.a.dir/ft_putstr.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/libft/CMakeFiles/CMakeFiles/libft.a.dir/ft_putstr.c.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libft/CMakeFiles/CMakeFiles/libft.a.dir/ft_putstr_fd.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/libft/CMakeFiles/CMakeFiles/libft.a.dir/ft_putstr_fd.c.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libft/CMakeFiles/CMakeFiles/libft.a.dir/ft_putstr_till.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/libft/CMakeFiles/CMakeFiles/libft.a.dir/ft_putstr_till.c.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libft/CMakeFiles/CMakeFiles/libft.a.dir/ft_strcat.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/libft/CMakeFiles/CMakeFiles/libft.a.dir/ft_strcat.c.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libft/CMakeFiles/CMakeFiles/libft.a.dir/ft_strchr.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/libft/CMakeFiles/CMakeFiles/libft.a.dir/ft_strchr.c.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libft/CMakeFiles/CMakeFiles/libft.a.dir/ft_strclr.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/libft/CMakeFiles/CMakeFiles/libft.a.dir/ft_strclr.c.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libft/CMakeFiles/CMakeFiles/libft.a.dir/ft_strcmp.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/libft/CMakeFiles/CMakeFiles/libft.a.dir/ft_strcmp.c.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libft/CMakeFiles/CMakeFiles/libft.a.dir/ft_strcpy.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/libft/CMakeFiles/CMakeFiles/libft.a.dir/ft_strcpy.c.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libft/CMakeFiles/CMakeFiles/libft.a.dir/ft_strdel.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/libft/CMakeFiles/CMakeFiles/libft.a.dir/ft_strdel.c.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libft/CMakeFiles/CMakeFiles/libft.a.dir/ft_strdup.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/libft/CMakeFiles/CMakeFiles/libft.a.dir/ft_strdup.c.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libft/CMakeFiles/CMakeFiles/libft.a.dir/ft_strequ.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/libft/CMakeFiles/CMakeFiles/libft.a.dir/ft_strequ.c.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libft/CMakeFiles/CMakeFiles/libft.a.dir/ft_striter.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/libft/CMakeFiles/CMakeFiles/libft.a.dir/ft_striter.c.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libft/CMakeFiles/CMakeFiles/libft.a.dir/ft_striteri.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/libft/CMakeFiles/CMakeFiles/libft.a.dir/ft_striteri.c.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libft/CMakeFiles/CMakeFiles/libft.a.dir/ft_strjoin.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/libft/CMakeFiles/CMakeFiles/libft.a.dir/ft_strjoin.c.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libft/CMakeFiles/CMakeFiles/libft.a.dir/ft_strlcat.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/libft/CMakeFiles/CMakeFiles/libft.a.dir/ft_strlcat.c.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libft/CMakeFiles/CMakeFiles/libft.a.dir/ft_strlen.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/libft/CMakeFiles/CMakeFiles/libft.a.dir/ft_strlen.c.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libft/CMakeFiles/CMakeFiles/libft.a.dir/ft_strmap.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/libft/CMakeFiles/CMakeFiles/libft.a.dir/ft_strmap.c.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libft/CMakeFiles/CMakeFiles/libft.a.dir/ft_strmapi.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/libft/CMakeFiles/CMakeFiles/libft.a.dir/ft_strmapi.c.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libft/CMakeFiles/CMakeFiles/libft.a.dir/ft_strncat.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/libft/CMakeFiles/CMakeFiles/libft.a.dir/ft_strncat.c.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libft/CMakeFiles/CMakeFiles/libft.a.dir/ft_strncmp.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/libft/CMakeFiles/CMakeFiles/libft.a.dir/ft_strncmp.c.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libft/CMakeFiles/CMakeFiles/libft.a.dir/ft_strncpy.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/libft/CMakeFiles/CMakeFiles/libft.a.dir/ft_strncpy.c.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libft/CMakeFiles/CMakeFiles/libft.a.dir/ft_strnequ.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/libft/CMakeFiles/CMakeFiles/libft.a.dir/ft_strnequ.c.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libft/CMakeFiles/CMakeFiles/libft.a.dir/ft_strnew.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/libft/CMakeFiles/CMakeFiles/libft.a.dir/ft_strnew.c.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libft/CMakeFiles/CMakeFiles/libft.a.dir/ft_strnstr.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/libft/CMakeFiles/CMakeFiles/libft.a.dir/ft_strnstr.c.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libft/CMakeFiles/CMakeFiles/libft.a.dir/ft_strrchr.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/libft/CMakeFiles/CMakeFiles/libft.a.dir/ft_strrchr.c.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libft/CMakeFiles/CMakeFiles/libft.a.dir/ft_strrev.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/libft/CMakeFiles/CMakeFiles/libft.a.dir/ft_strrev.c.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libft/CMakeFiles/CMakeFiles/libft.a.dir/ft_strsplit.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/libft/CMakeFiles/CMakeFiles/libft.a.dir/ft_strsplit.c.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libft/CMakeFiles/CMakeFiles/libft.a.dir/ft_strstr.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/libft/CMakeFiles/CMakeFiles/libft.a.dir/ft_strstr.c.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libft/CMakeFiles/CMakeFiles/libft.a.dir/ft_strsub.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/libft/CMakeFiles/CMakeFiles/libft.a.dir/ft_strsub.c.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libft/CMakeFiles/CMakeFiles/libft.a.dir/ft_strtrim.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/libft/CMakeFiles/CMakeFiles/libft.a.dir/ft_strtrim.c.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libft/CMakeFiles/CMakeFiles/libft.a.dir/ft_tolower.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/libft/CMakeFiles/CMakeFiles/libft.a.dir/ft_tolower.c.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libft/CMakeFiles/CMakeFiles/libft.a.dir/ft_toupper.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/libft/CMakeFiles/CMakeFiles/libft.a.dir/ft_toupper.c.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libft/CMakeFiles/CMakeFiles/libft.a.dir/get_next_line.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/libft/CMakeFiles/CMakeFiles/libft.a.dir/get_next_line.c.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libft/CMakeFiles/liblibft.a.a" beforeDir="false" afterPath="$PROJECT_DIR$/libft/CMakeFiles/liblibft.a.a" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <ignored path="$PROJECT_DIR$/libft/CMakeFiles/" />
@@ -32,41 +113,43 @@
       <usages-collector id="statistics.lifecycle.project">
         <counts>
           <entry key="project.closed" value="3" />
-          <entry key="project.open.time.10" value="1" />
+          <entry key="project.open.time.10" value="2" />
           <entry key="project.open.time.3" value="1" />
-          <entry key="project.open.time.31" value="1" />
+          <entry key="project.open.time.31" value="2" />
           <entry key="project.open.time.4" value="1" />
-          <entry key="project.opened" value="4" />
+          <entry key="project.opened" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="Makefile" value="1" />
-          <entry key="c" value="1" />
+          <entry key="c" value="3" />
           <entry key="h" value="1" />
+          <entry key="map" value="1" />
           <entry key="txt" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CMakeLists.txt" value="1" />
-          <entry key="ObjectiveC" value="2" />
-          <entry key="PLAIN_TEXT" value="1" />
+          <entry key="ObjectiveC" value="4" />
+          <entry key="PLAIN_TEXT" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="Makefile" value="12" />
-          <entry key="c" value="140" />
-          <entry key="h" value="51" />
-          <entry key="txt" value="6" />
+          <entry key="Makefile" value="51" />
+          <entry key="c" value="1591" />
+          <entry key="h" value="227" />
+          <entry key="map" value="2" />
+          <entry key="txt" value="21" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="CMakeLists.txt" value="6" />
-          <entry key="ObjectiveC" value="191" />
-          <entry key="PLAIN_TEXT" value="12" />
+          <entry key="CMakeLists.txt" value="21" />
+          <entry key="ObjectiveC" value="1818" />
+          <entry key="PLAIN_TEXT" value="53" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.cidr.testingFrameworks.usages" />
@@ -78,8 +161,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="465">
-              <caret line="31" column="37" selection-start-line="31" selection-start-column="37" selection-end-line="31" selection-end-column="37" />
+            <state relative-caret-position="330">
+              <caret line="22" column="20" selection-start-line="22" selection-start-column="20" selection-end-line="22" selection-end-column="20" />
             </state>
           </provider>
         </entry>
@@ -87,8 +170,29 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Srcs/main.c">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="550">
-              <caret line="43" column="81" lean-forward="true" selection-start-line="43" selection-start-column="81" selection-end-line="43" selection-end-column="81" />
+            <state relative-caret-position="145">
+              <caret line="18" column="16" selection-start-line="18" selection-start-column="16" selection-end-line="18" selection-end-column="16" />
+              <folding>
+                <element signature="e#892#911#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Srcs/read_map.c">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="390">
+              <caret line="26" column="42" selection-start-line="26" selection-start-column="42" selection-end-line="26" selection-end-column="42" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/map">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="345">
+              <caret line="23" column="47" selection-start-line="23" selection-start-column="47" selection-end-line="23" selection-end-column="47" />
             </state>
           </provider>
         </entry>
@@ -96,8 +200,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Makefile">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" selection-start-line="11" selection-end-line="11" />
+            <state relative-caret-position="330">
+              <caret line="22" column="8" selection-start-line="22" selection-start-column="8" selection-end-line="22" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -105,10 +209,10 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Includes/wolf3d.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="18" column="17" lean-forward="true" selection-start-line="18" selection-start-column="17" selection-end-line="18" selection-end-column="17" />
+            <state relative-caret-position="525">
+              <caret line="35" column="24" selection-start-line="35" selection-start-column="24" selection-end-line="35" selection-end-column="24" />
               <folding>
-                <element signature="e#967#986#0" expanded="true" />
+                <element signature="e#1003#1021#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -116,14 +220,30 @@
       </file>
     </leaf>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>5,</find>
+      <find>,</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>1,</replace>
+      <replace>0,</replace>
+      <replace>5,</replace>
+    </replaceStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+        <option value="$PROJECT_DIR$/Srcs/map.c" />
+        <option value="$PROJECT_DIR$/Srcs/map" />
         <option value="$PROJECT_DIR$/CMakeLists.txt" />
         <option value="$PROJECT_DIR$/Makefile" />
+        <option value="$PROJECT_DIR$/Includes/map" />
+        <option value="$PROJECT_DIR$/Srcs/read_map.c" />
+        <option value="$PROJECT_DIR$/map" />
         <option value="$PROJECT_DIR$/Includes/wolf3d.h" />
         <option value="$PROJECT_DIR$/Srcs/main.c" />
       </list>
@@ -140,6 +260,9 @@
     <option name="y" value="23" />
     <option name="width" value="1347" />
     <option name="height" value="1337" />
+  </component>
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -175,6 +298,12 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="preferences.sourceCode" />
   </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/Includes" />
+    </key>
+  </component>
   <component name="RunDashboard">
     <option name="ruleStates">
       <list>
@@ -198,7 +327,7 @@
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="wolf3d" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="wolf3d" TARGET_NAME="wolf3d" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="wolf3d" RUN_TARGET_NAME="wolf3d">
+    <configuration name="wolf3d" type="CMakeRunConfiguration" factoryName="Application" PROGRAM_PARAMS="map" WORKING_DIR="file://$PROJECT_DIR$" PASS_PARENT_ENVS_2="true" PROJECT_NAME="wolf3d" TARGET_NAME="wolf3d" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="wolf3d" RUN_TARGET_NAME="wolf3d">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -222,32 +351,34 @@
       <workItem from="1540029870638" duration="25000" />
       <workItem from="1540029916181" duration="256000" />
       <workItem from="1540030186009" duration="210000" />
-      <workItem from="1540208221044" duration="761000" />
+      <workItem from="1540208221044" duration="4771000" />
+      <workItem from="1540300790193" duration="1538000" />
+      <workItem from="1540317310312" duration="321000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1252000" />
+    <option name="totallyTimeSpent" value="7121000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1213" y="23" width="1347" height="1337" extended-state="0" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26666668" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2743295" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32978722" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39934534" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.3633388" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.36305222" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="10" show_stripe_button="false" />
       <window_info anchor="bottom" id="CMake" order="11" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.32978722" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -261,34 +392,52 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/Srcs/map.c" />
     <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="465">
-          <caret line="31" column="37" selection-start-line="31" selection-start-column="37" selection-end-line="31" selection-end-column="37" />
+        <state relative-caret-position="330">
+          <caret line="22" column="20" selection-start-line="22" selection-start-column="20" selection-end-line="22" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Srcs/read_map.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="26" column="42" selection-start-line="26" selection-start-column="42" selection-end-line="26" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/map">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="23" column="47" selection-start-line="23" selection-start-column="47" selection-end-line="23" selection-end-column="47" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Makefile">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" selection-start-line="11" selection-end-line="11" />
+        <state relative-caret-position="330">
+          <caret line="22" column="8" selection-start-line="22" selection-start-column="8" selection-end-line="22" selection-end-column="8" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Includes/wolf3d.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="17" lean-forward="true" selection-start-line="18" selection-start-column="17" selection-end-line="18" selection-end-column="17" />
+        <state relative-caret-position="525">
+          <caret line="35" column="24" selection-start-line="35" selection-start-column="24" selection-end-line="35" selection-end-column="24" />
           <folding>
-            <element signature="e#967#986#0" expanded="true" />
+            <element signature="e#1003#1021#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Srcs/main.c">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="550">
-          <caret line="43" column="81" lean-forward="true" selection-start-line="43" selection-start-column="81" selection-end-line="43" selection-end-column="81" />
+        <state relative-caret-position="145">
+          <caret line="18" column="16" selection-start-line="18" selection-start-column="16" selection-end-line="18" selection-end-column="16" />
+          <folding>
+            <element signature="e#892#911#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

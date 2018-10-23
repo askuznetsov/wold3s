@@ -6,7 +6,7 @@
 #    By: okuznets <marvin@42.fr>                    +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2018/10/20 13:10:06 by okuznets          #+#    #+#              #
-#    Updated: 2018/10/20 13:10:06 by okuznets         ###   ########.fr        #
+#    Updated: 2018/10/22 16:16:49 by okuznets         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -20,8 +20,8 @@ INC = Includes
 
 SDIR = Srcs
 
-SRCS =
-		main.c\
+SRCS =	main.c\
+		read_map.c\
 
 HEADERS = wolf3d.h
 

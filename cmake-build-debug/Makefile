@@ -166,6 +166,33 @@ Srcs/main.c.s:
 	$(MAKE) -f CMakeFiles/wolf3d.dir/build.make CMakeFiles/wolf3d.dir/Srcs/main.c.s
 .PHONY : Srcs/main.c.s
 
+Srcs/read_map.o: Srcs/read_map.c.o
+
+.PHONY : Srcs/read_map.o
+
+# target to build an object file
+Srcs/read_map.c.o:
+	$(MAKE) -f CMakeFiles/wolf3d.dir/build.make CMakeFiles/wolf3d.dir/Srcs/read_map.c.o
+.PHONY : Srcs/read_map.c.o
+
+Srcs/read_map.i: Srcs/read_map.c.i
+
+.PHONY : Srcs/read_map.i
+
+# target to preprocess a source file
+Srcs/read_map.c.i:
+	$(MAKE) -f CMakeFiles/wolf3d.dir/build.make CMakeFiles/wolf3d.dir/Srcs/read_map.c.i
+.PHONY : Srcs/read_map.c.i
+
+Srcs/read_map.s: Srcs/read_map.c.s
+
+.PHONY : Srcs/read_map.s
+
+# target to generate assembly for a file
+Srcs/read_map.c.s:
+	$(MAKE) -f CMakeFiles/wolf3d.dir/build.make CMakeFiles/wolf3d.dir/Srcs/read_map.c.s
+.PHONY : Srcs/read_map.c.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -179,6 +206,9 @@ help:
 	@echo "... Srcs/main.o"
 	@echo "... Srcs/main.i"
 	@echo "... Srcs/main.s"
+	@echo "... Srcs/read_map.o"
+	@echo "... Srcs/read_map.i"
+	@echo "... Srcs/read_map.s"
 .PHONY : help
 
 

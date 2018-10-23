@@ -5,6 +5,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
   "/Users/okuznets/Programming/wolf3d/Srcs/main.c" "/Users/okuznets/Programming/wolf3d/cmake-build-debug/CMakeFiles/wolf3d.dir/Srcs/main.c.o"
+  "/Users/okuznets/Programming/wolf3d/Srcs/read_map.c" "/Users/okuznets/Programming/wolf3d/cmake-build-debug/CMakeFiles/wolf3d.dir/Srcs/read_map.c.o"
   )
 set(CMAKE_C_COMPILER_ID "AppleClang")
 

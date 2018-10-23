@@ -133,6 +133,9 @@
 		<Unit filename="/Users/okuznets/Programming/wolf3d/Srcs/main.c">
 			<Option target="wolf3d"/>
 		</Unit>
+		<Unit filename="/Users/okuznets/Programming/wolf3d/Srcs/read_map.c">
+			<Option target="wolf3d"/>
+		</Unit>
 		<Unit filename="/Users/okuznets/Programming/wolf3d/libft/ft_abs.c">
 			<Option target="libft.a"/>
 		</Unit>

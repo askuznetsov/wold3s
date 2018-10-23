@@ -1,4 +1,5 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/wolf3d.dir/Srcs/read_map.c.o"
   "CMakeFiles/wolf3d.dir/Srcs/main.c.o"
   "../wolf3d.pdb"
   "../wolf3d"
