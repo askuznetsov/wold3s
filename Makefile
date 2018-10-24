@@ -21,7 +21,7 @@ INC = Includes
 SDIR = Srcs
 
 SRCS =	main.c\
-		read_map.c\
+		checker.c\
 
 HEADERS = wolf3d.h
 

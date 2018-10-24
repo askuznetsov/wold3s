@@ -20,7 +20,7 @@ set(LIBFT_BINARY_DIR ${CMAKE_CURRENT_SOURCE_DIR}/libft/CMakeFiles)
 set(SDIR Srcs)
 
 set(SOURCES
-		"read_map.c"
+		"checker.c"
 		"main.c")
 PREPEND(SOURCES_REL ${SDIR} ${SOURCES})
 

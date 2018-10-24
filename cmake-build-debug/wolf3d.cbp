@@ -130,10 +130,10 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/Users/okuznets/Programming/wolf3d/Srcs/main.c">
+		<Unit filename="/Users/okuznets/Programming/wolf3d/Srcs/checker.c">
 			<Option target="wolf3d"/>
 		</Unit>
-		<Unit filename="/Users/okuznets/Programming/wolf3d/Srcs/read_map.c">
+		<Unit filename="/Users/okuznets/Programming/wolf3d/Srcs/main.c">
 			<Option target="wolf3d"/>
 		</Unit>
 		<Unit filename="/Users/okuznets/Programming/wolf3d/libft/ft_abs.c">

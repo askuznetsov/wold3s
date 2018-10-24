@@ -18,6 +18,7 @@
 #include "/usr/local/include/mlx.h"
 #include "math.h"
 #include <errno.h>
+#include <stdio.h>
 
 typedef struct	s_vector
 {
