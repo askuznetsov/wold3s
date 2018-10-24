@@ -13,26 +13,71 @@
 #ifndef WOLF3D_H
 #define WOLF3D_H
 
-#define MAPWIDTH 24
-#define MAPHEIGHT 24
-#define WDTH 800
-#define HGHT 600
-
 #include "libft.h"
 #include <fcntl.h>
 #include "/usr/local/include/mlx.h"
 #include "math.h"
+#include <errno.h>
 
-typedef struct s_struct
+typedef struct	s_vector
 {
-    double posX;
-    double posY;
-    double dirX;
-    double dirY;
-    double planeX;
-    double planeY;
-    double time;
-    double oldTime;
-}               t_struct;
-char 	***read_map(int fd);
+	double	x;
+	double	y;
+}				t_vector;
+
+typedef struct	s_inervector
+{
+	int		x;
+	int		y;
+}               t_inervector;
+
+typedef struct	s_mlx
+{
+	void			*mlx;
+	void			*win;
+	void			*img;
+	int				*data;
+	int 			bts_per_pix;
+	int 			szln;
+	int 			weight;
+	int 			s_weight;
+	int 			height;
+	int 			s_height;
+	int				end;
+	int 			move_up;
+	int 			move_down;
+	int 			move_right;
+	int 			move_left;
+	int 			**map;
+	int 			line_h;
+	int 			start_dwawing;
+	int 			end_drawing;
+	int 			i;
+	t_vector		pl_pos;
+	t_vector		pl_dir;
+	t_vector		pl_plane;
+	t_vector		r_pos;
+	t_vector		r_dir;
+	t_vector		r_delta;
+	t_vector		wall_side;
+	t_vector		step;
+	t_inervector	r_map;
+	t_list			*list;
+	t_list			*tmp;
+	double 			pz;
+	double 			rt_z;
+	double 			r_cam;
+	double 			r_dst;
+	double			hit;
+	double 			hit_side;
+	double			speed_move;
+	unsigned int	d1;
+	unsigned int	d2;
+	unsigned int	d3;
+	unsigned int	d4;
+	unsigned int	d_s;
+	unsigned int	d_g;
+	char 			**str;
+	char 			*ln;
+}				t_mlx;
 #endif
