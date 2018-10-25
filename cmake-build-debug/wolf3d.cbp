@@ -133,7 +133,13 @@
 		<Unit filename="/Users/okuznets/Programming/wolf3d/Srcs/checker.c">
 			<Option target="wolf3d"/>
 		</Unit>
+		<Unit filename="/Users/okuznets/Programming/wolf3d/Srcs/drawing.c">
+			<Option target="wolf3d"/>
+		</Unit>
 		<Unit filename="/Users/okuznets/Programming/wolf3d/Srcs/main.c">
+			<Option target="wolf3d"/>
+		</Unit>
+		<Unit filename="/Users/okuznets/Programming/wolf3d/Srcs/parsing.c">
 			<Option target="wolf3d"/>
 		</Unit>
 		<Unit filename="/Users/okuznets/Programming/wolf3d/libft/ft_abs.c">
@@ -170,6 +176,9 @@
 			<Option target="libft.a"/>
 		</Unit>
 		<Unit filename="/Users/okuznets/Programming/wolf3d/libft/ft_itoa.c">
+			<Option target="libft.a"/>
+		</Unit>
+		<Unit filename="/Users/okuznets/Programming/wolf3d/libft/ft_lst_push_back.c">
 			<Option target="libft.a"/>
 		</Unit>
 		<Unit filename="/Users/okuznets/Programming/wolf3d/libft/ft_lstadd.c">

@@ -452,6 +452,33 @@ ft_itoa.c.s:
 	cd /Users/okuznets/Programming/wolf3d/cmake-build-debug && $(MAKE) -f ../libft/CMakeFiles/CMakeFiles/libft.a.dir/build.make ../libft/CMakeFiles/CMakeFiles/libft.a.dir/ft_itoa.c.s
 .PHONY : ft_itoa.c.s
 
+ft_lst_push_back.o: ft_lst_push_back.c.o
+
+.PHONY : ft_lst_push_back.o
+
+# target to build an object file
+ft_lst_push_back.c.o:
+	cd /Users/okuznets/Programming/wolf3d/cmake-build-debug && $(MAKE) -f ../libft/CMakeFiles/CMakeFiles/libft.a.dir/build.make ../libft/CMakeFiles/CMakeFiles/libft.a.dir/ft_lst_push_back.c.o
+.PHONY : ft_lst_push_back.c.o
+
+ft_lst_push_back.i: ft_lst_push_back.c.i
+
+.PHONY : ft_lst_push_back.i
+
+# target to preprocess a source file
+ft_lst_push_back.c.i:
+	cd /Users/okuznets/Programming/wolf3d/cmake-build-debug && $(MAKE) -f ../libft/CMakeFiles/CMakeFiles/libft.a.dir/build.make ../libft/CMakeFiles/CMakeFiles/libft.a.dir/ft_lst_push_back.c.i
+.PHONY : ft_lst_push_back.c.i
+
+ft_lst_push_back.s: ft_lst_push_back.c.s
+
+.PHONY : ft_lst_push_back.s
+
+# target to generate assembly for a file
+ft_lst_push_back.c.s:
+	cd /Users/okuznets/Programming/wolf3d/cmake-build-debug && $(MAKE) -f ../libft/CMakeFiles/CMakeFiles/libft.a.dir/build.make ../libft/CMakeFiles/CMakeFiles/libft.a.dir/ft_lst_push_back.c.s
+.PHONY : ft_lst_push_back.c.s
+
 ft_lstadd.o: ft_lstadd.c.o
 
 .PHONY : ft_lstadd.o
@@ -1928,6 +1955,9 @@ help:
 	@echo "... ft_itoa.o"
 	@echo "... ft_itoa.i"
 	@echo "... ft_itoa.s"
+	@echo "... ft_lst_push_back.o"
+	@echo "... ft_lst_push_back.i"
+	@echo "... ft_lst_push_back.s"
 	@echo "... ft_lstadd.o"
 	@echo "... ft_lstadd.i"
 	@echo "... ft_lstadd.s"

@@ -100,6 +100,9 @@
 		<Unit filename="/Users/okuznets/Programming/wolf3d/libft/ft_itoa.c">
 			<Option target="libft.a"/>
 		</Unit>
+		<Unit filename="/Users/okuznets/Programming/wolf3d/libft/ft_lst_push_back.c">
+			<Option target="libft.a"/>
+		</Unit>
 		<Unit filename="/Users/okuznets/Programming/wolf3d/libft/ft_lstadd.c">
 			<Option target="libft.a"/>
 		</Unit>

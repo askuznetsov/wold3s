@@ -69,6 +69,7 @@ SRC		=   ft_strlen.c \
         	ft_putstr_fd.c \
         	ft_putendl_fd.c \
         	ft_putnbr_fd.c \
+        	ft_lst_push_back.c\
         	ft_lstnew.c \
         	ft_lstdelone.c \
         	ft_lstdel.c \

@@ -60,9 +60,35 @@ include CMakeFiles/wolf3d.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/wolf3d.dir/flags.make
 
+CMakeFiles/wolf3d.dir/Srcs/drawing.c.o: CMakeFiles/wolf3d.dir/flags.make
+CMakeFiles/wolf3d.dir/Srcs/drawing.c.o: ../Srcs/drawing.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/okuznets/Programming/wolf3d/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/wolf3d.dir/Srcs/drawing.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/wolf3d.dir/Srcs/drawing.c.o   -c /Users/okuznets/Programming/wolf3d/Srcs/drawing.c
+
+CMakeFiles/wolf3d.dir/Srcs/drawing.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/wolf3d.dir/Srcs/drawing.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/okuznets/Programming/wolf3d/Srcs/drawing.c > CMakeFiles/wolf3d.dir/Srcs/drawing.c.i
+
+CMakeFiles/wolf3d.dir/Srcs/drawing.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/wolf3d.dir/Srcs/drawing.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/okuznets/Programming/wolf3d/Srcs/drawing.c -o CMakeFiles/wolf3d.dir/Srcs/drawing.c.s
+
+CMakeFiles/wolf3d.dir/Srcs/parsing.c.o: CMakeFiles/wolf3d.dir/flags.make
+CMakeFiles/wolf3d.dir/Srcs/parsing.c.o: ../Srcs/parsing.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/okuznets/Programming/wolf3d/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/wolf3d.dir/Srcs/parsing.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/wolf3d.dir/Srcs/parsing.c.o   -c /Users/okuznets/Programming/wolf3d/Srcs/parsing.c
+
+CMakeFiles/wolf3d.dir/Srcs/parsing.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/wolf3d.dir/Srcs/parsing.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/okuznets/Programming/wolf3d/Srcs/parsing.c > CMakeFiles/wolf3d.dir/Srcs/parsing.c.i
+
+CMakeFiles/wolf3d.dir/Srcs/parsing.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/wolf3d.dir/Srcs/parsing.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/okuznets/Programming/wolf3d/Srcs/parsing.c -o CMakeFiles/wolf3d.dir/Srcs/parsing.c.s
+
 CMakeFiles/wolf3d.dir/Srcs/checker.c.o: CMakeFiles/wolf3d.dir/flags.make
 CMakeFiles/wolf3d.dir/Srcs/checker.c.o: ../Srcs/checker.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/okuznets/Programming/wolf3d/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/wolf3d.dir/Srcs/checker.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/okuznets/Programming/wolf3d/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/wolf3d.dir/Srcs/checker.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/wolf3d.dir/Srcs/checker.c.o   -c /Users/okuznets/Programming/wolf3d/Srcs/checker.c
 
 CMakeFiles/wolf3d.dir/Srcs/checker.c.i: cmake_force
@@ -75,7 +101,7 @@ CMakeFiles/wolf3d.dir/Srcs/checker.c.s: cmake_force
 
 CMakeFiles/wolf3d.dir/Srcs/main.c.o: CMakeFiles/wolf3d.dir/flags.make
 CMakeFiles/wolf3d.dir/Srcs/main.c.o: ../Srcs/main.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/okuznets/Programming/wolf3d/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/wolf3d.dir/Srcs/main.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/okuznets/Programming/wolf3d/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/wolf3d.dir/Srcs/main.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/wolf3d.dir/Srcs/main.c.o   -c /Users/okuznets/Programming/wolf3d/Srcs/main.c
 
 CMakeFiles/wolf3d.dir/Srcs/main.c.i: cmake_force
@@ -88,18 +114,22 @@ CMakeFiles/wolf3d.dir/Srcs/main.c.s: cmake_force
 
 # Object files for target wolf3d
 wolf3d_OBJECTS = \
+"CMakeFiles/wolf3d.dir/Srcs/drawing.c.o" \
+"CMakeFiles/wolf3d.dir/Srcs/parsing.c.o" \
 "CMakeFiles/wolf3d.dir/Srcs/checker.c.o" \
 "CMakeFiles/wolf3d.dir/Srcs/main.c.o"
 
 # External object files for target wolf3d
 wolf3d_EXTERNAL_OBJECTS =
 
+../wolf3d: CMakeFiles/wolf3d.dir/Srcs/drawing.c.o
+../wolf3d: CMakeFiles/wolf3d.dir/Srcs/parsing.c.o
 ../wolf3d: CMakeFiles/wolf3d.dir/Srcs/checker.c.o
 ../wolf3d: CMakeFiles/wolf3d.dir/Srcs/main.c.o
 ../wolf3d: CMakeFiles/wolf3d.dir/build.make
 ../wolf3d: ../libft/CMakeFiles/liblibft.a.a
 ../wolf3d: CMakeFiles/wolf3d.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/okuznets/Programming/wolf3d/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking C executable ../wolf3d"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/okuznets/Programming/wolf3d/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking C executable ../wolf3d"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/wolf3d.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

@@ -6,7 +6,7 @@
 /*   By: okuznets <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2018/10/20 13:09:53 by okuznets          #+#    #+#             */
-/*   Updated: 2018/10/22 15:54:48 by okuznets         ###   ########.fr       */
+/*   Updated: 2018/10/25 15:12:47 by okuznets         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -50,7 +50,7 @@ typedef struct	s_mlx
 	int 			move_right;
 	int 			move_left;
 	int 			**map;
-	int 			line_h;
+	int 			ln_h;
 	int 			start_dwawing;
 	int 			end_drawing;
 	int 			i;
@@ -72,13 +72,17 @@ typedef struct	s_mlx
 	double			hit;
 	double 			hit_side;
 	double			speed_move;
-	unsigned int	d1;
-	unsigned int	d2;
-	unsigned int	d3;
-	unsigned int	d4;
-	unsigned int	d_s;
-	unsigned int	d_g;
+	unsigned int	color_one;
+	unsigned int	color_two;
+	unsigned int	color_three;
+	unsigned int	color_four;
+	unsigned int	color_s;
+	unsigned int	color_g;
 	char 			**str;
 	char 			*ln;
 }				t_mlx;
+
+int 	rd_file(char *argv, t_mlx *mlx);
+void	err(void);
+void	wrong_file(void);
 #endif

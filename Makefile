@@ -6,7 +6,7 @@
 #    By: okuznets <marvin@42.fr>                    +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2018/10/20 13:10:06 by okuznets          #+#    #+#              #
-#    Updated: 2018/10/22 16:16:49 by okuznets         ###   ########.fr        #
+#    Updated: 2018/10/25 13:16:57 by okuznets         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -22,6 +22,8 @@ SDIR = Srcs
 
 SRCS =	main.c\
 		checker.c\
+		parsing.c\
+		drawing.c\
 
 HEADERS = wolf3d.h
 

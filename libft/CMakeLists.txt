@@ -18,6 +18,7 @@ set(SOURCES
 		"ft_atoi.c"
 		"ft_itoa.c"
 		"ft_bzero.c"
+		"ft_lst_push_back.c"
 		"ft_lstadd.c"
 		"ft_lstdel.c"
 		"ft_lstdelone.c"

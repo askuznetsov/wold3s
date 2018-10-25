@@ -216,9 +216,22 @@ include ../libft/CMakeFiles/CMakeFiles/libft.a.dir/flags.make
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/libft.a.dir/ft_bzero.c.s"
 	cd /Users/okuznets/Programming/wolf3d/libft/CMakeFiles && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/okuznets/Programming/wolf3d/libft/ft_bzero.c -o CMakeFiles/libft.a.dir/ft_bzero.c.s
 
+../libft/CMakeFiles/CMakeFiles/libft.a.dir/ft_lst_push_back.c.o: ../libft/CMakeFiles/CMakeFiles/libft.a.dir/flags.make
+../libft/CMakeFiles/CMakeFiles/libft.a.dir/ft_lst_push_back.c.o: ../libft/ft_lst_push_back.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/okuznets/Programming/wolf3d/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object ../libft/CMakeFiles/CMakeFiles/libft.a.dir/ft_lst_push_back.c.o"
+	cd /Users/okuznets/Programming/wolf3d/libft/CMakeFiles && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libft.a.dir/ft_lst_push_back.c.o   -c /Users/okuznets/Programming/wolf3d/libft/ft_lst_push_back.c
+
+../libft/CMakeFiles/CMakeFiles/libft.a.dir/ft_lst_push_back.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/libft.a.dir/ft_lst_push_back.c.i"
+	cd /Users/okuznets/Programming/wolf3d/libft/CMakeFiles && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/okuznets/Programming/wolf3d/libft/ft_lst_push_back.c > CMakeFiles/libft.a.dir/ft_lst_push_back.c.i
+
+../libft/CMakeFiles/CMakeFiles/libft.a.dir/ft_lst_push_back.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/libft.a.dir/ft_lst_push_back.c.s"
+	cd /Users/okuznets/Programming/wolf3d/libft/CMakeFiles && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/okuznets/Programming/wolf3d/libft/ft_lst_push_back.c -o CMakeFiles/libft.a.dir/ft_lst_push_back.c.s
+
 ../libft/CMakeFiles/CMakeFiles/libft.a.dir/ft_lstadd.c.o: ../libft/CMakeFiles/CMakeFiles/libft.a.dir/flags.make
 ../libft/CMakeFiles/CMakeFiles/libft.a.dir/ft_lstadd.c.o: ../libft/ft_lstadd.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/okuznets/Programming/wolf3d/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object ../libft/CMakeFiles/CMakeFiles/libft.a.dir/ft_lstadd.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/okuznets/Programming/wolf3d/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object ../libft/CMakeFiles/CMakeFiles/libft.a.dir/ft_lstadd.c.o"
 	cd /Users/okuznets/Programming/wolf3d/libft/CMakeFiles && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libft.a.dir/ft_lstadd.c.o   -c /Users/okuznets/Programming/wolf3d/libft/ft_lstadd.c
 
 ../libft/CMakeFiles/CMakeFiles/libft.a.dir/ft_lstadd.c.i: cmake_force
@@ -231,7 +244,7 @@ include ../libft/CMakeFiles/CMakeFiles/libft.a.dir/flags.make
 
 ../libft/CMakeFiles/CMakeFiles/libft.a.dir/ft_lstdel.c.o: ../libft/CMakeFiles/CMakeFiles/libft.a.dir/flags.make
 ../libft/CMakeFiles/CMakeFiles/libft.a.dir/ft_lstdel.c.o: ../libft/ft_lstdel.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/okuznets/Programming/wolf3d/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object ../libft/CMakeFiles/CMakeFiles/libft.a.dir/ft_lstdel.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/okuznets/Programming/wolf3d/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object ../libft/CMakeFiles/CMakeFiles/libft.a.dir/ft_lstdel.c.o"
 	cd /Users/okuznets/Programming/wolf3d/libft/CMakeFiles && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libft.a.dir/ft_lstdel.c.o   -c /Users/okuznets/Programming/wolf3d/libft/ft_lstdel.c
 
 ../libft/CMakeFiles/CMakeFiles/libft.a.dir/ft_lstdel.c.i: cmake_force
@@ -244,7 +257,7 @@ include ../libft/CMakeFiles/CMakeFiles/libft.a.dir/flags.make
 
 ../libft/CMakeFiles/CMakeFiles/libft.a.dir/ft_lstdelone.c.o: ../libft/CMakeFiles/CMakeFiles/libft.a.dir/flags.make
 ../libft/CMakeFiles/CMakeFiles/libft.a.dir/ft_lstdelone.c.o: ../libft/ft_lstdelone.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/okuznets/Programming/wolf3d/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object ../libft/CMakeFiles/CMakeFiles/libft.a.dir/ft_lstdelone.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/okuznets/Programming/wolf3d/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object ../libft/CMakeFiles/CMakeFiles/libft.a.dir/ft_lstdelone.c.o"
 	cd /Users/okuznets/Programming/wolf3d/libft/CMakeFiles && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libft.a.dir/ft_lstdelone.c.o   -c /Users/okuznets/Programming/wolf3d/libft/ft_lstdelone.c
 
 ../libft/CMakeFiles/CMakeFiles/libft.a.dir/ft_lstdelone.c.i: cmake_force
@@ -257,7 +270,7 @@ include ../libft/CMakeFiles/CMakeFiles/libft.a.dir/flags.make
 
 ../libft/CMakeFiles/CMakeFiles/libft.a.dir/ft_lstiter.c.o: ../libft/CMakeFiles/CMakeFiles/libft.a.dir/flags.make
 ../libft/CMakeFiles/CMakeFiles/libft.a.dir/ft_lstiter.c.o: ../libft/ft_lstiter.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/okuznets/Programming/wolf3d/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object ../libft/CMakeFiles/CMakeFiles/libft.a.dir/ft_lstiter.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/okuznets/Programming/wolf3d/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object ../libft/CMakeFiles/CMakeFiles/libft.a.dir/ft_lstiter.c.o"
 	cd /Users/okuznets/Programming/wolf3d/libft/CMakeFiles && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libft.a.dir/ft_lstiter.c.o   -c /Users/okuznets/Programming/wolf3d/libft/ft_lstiter.c
 
 ../libft/CMakeFiles/CMakeFiles/libft.a.dir/ft_lstiter.c.i: cmake_force
@@ -270,7 +283,7 @@ include ../libft/CMakeFiles/CMakeFiles/libft.a.dir/flags.make
 
 ../libft/CMakeFiles/CMakeFiles/libft.a.dir/ft_lstmap.c.o: ../libft/CMakeFiles/CMakeFiles/libft.a.dir/flags.make
 ../libft/CMakeFiles/CMakeFiles/libft.a.dir/ft_lstmap.c.o: ../libft/ft_lstmap.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/okuznets/Programming/wolf3d/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object ../libft/CMakeFiles/CMakeFiles/libft.a.dir/ft_lstmap.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/okuznets/Programming/wolf3d/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object ../libft/CMakeFiles/CMakeFiles/libft.a.dir/ft_lstmap.c.o"
 	cd /Users/okuznets/Programming/wolf3d/libft/CMakeFiles && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libft.a.dir/ft_lstmap.c.o   -c /Users/okuznets/Programming/wolf3d/libft/ft_lstmap.c
 
 ../libft/CMakeFiles/CMakeFiles/libft.a.dir/ft_lstmap.c.i: cmake_force
@@ -283,7 +296,7 @@ include ../libft/CMakeFiles/CMakeFiles/libft.a.dir/flags.make
 
 ../libft/CMakeFiles/CMakeFiles/libft.a.dir/ft_lstnew.c.o: ../libft/CMakeFiles/CMakeFiles/libft.a.dir/flags.make
 ../libft/CMakeFiles/CMakeFiles/libft.a.dir/ft_lstnew.c.o: ../libft/ft_lstnew.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/okuznets/Programming/wolf3d/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object ../libft/CMakeFiles/CMakeFiles/libft.a.dir/ft_lstnew.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/okuznets/Programming/wolf3d/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object ../libft/CMakeFiles/CMakeFiles/libft.a.dir/ft_lstnew.c.o"
 	cd /Users/okuznets/Programming/wolf3d/libft/CMakeFiles && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libft.a.dir/ft_lstnew.c.o   -c /Users/okuznets/Programming/wolf3d/libft/ft_lstnew.c
 
 ../libft/CMakeFiles/CMakeFiles/libft.a.dir/ft_lstnew.c.i: cmake_force
@@ -296,7 +309,7 @@ include ../libft/CMakeFiles/CMakeFiles/libft.a.dir/flags.make
 
 ../libft/CMakeFiles/CMakeFiles/libft.a.dir/ft_memalloc.c.o: ../libft/CMakeFiles/CMakeFiles/libft.a.dir/flags.make
 ../libft/CMakeFiles/CMakeFiles/libft.a.dir/ft_memalloc.c.o: ../libft/ft_memalloc.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/okuznets/Programming/wolf3d/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object ../libft/CMakeFiles/CMakeFiles/libft.a.dir/ft_memalloc.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/okuznets/Programming/wolf3d/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object ../libft/CMakeFiles/CMakeFiles/libft.a.dir/ft_memalloc.c.o"
 	cd /Users/okuznets/Programming/wolf3d/libft/CMakeFiles && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libft.a.dir/ft_memalloc.c.o   -c /Users/okuznets/Programming/wolf3d/libft/ft_memalloc.c
 
 ../libft/CMakeFiles/CMakeFiles/libft.a.dir/ft_memalloc.c.i: cmake_force
@@ -309,7 +322,7 @@ include ../libft/CMakeFiles/CMakeFiles/libft.a.dir/flags.make
 
 ../libft/CMakeFiles/CMakeFiles/libft.a.dir/ft_memccpy.c.o: ../libft/CMakeFiles/CMakeFiles/libft.a.dir/flags.make
 ../libft/CMakeFiles/CMakeFiles/libft.a.dir/ft_memccpy.c.o: ../libft/ft_memccpy.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/okuznets/Programming/wolf3d/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object ../libft/CMakeFiles/CMakeFiles/libft.a.dir/ft_memccpy.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/okuznets/Programming/wolf3d/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object ../libft/CMakeFiles/CMakeFiles/libft.a.dir/ft_memccpy.c.o"
 	cd /Users/okuznets/Programming/wolf3d/libft/CMakeFiles && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libft.a.dir/ft_memccpy.c.o   -c /Users/okuznets/Programming/wolf3d/libft/ft_memccpy.c
 
 ../libft/CMakeFiles/CMakeFiles/libft.a.dir/ft_memccpy.c.i: cmake_force
@@ -322,7 +335,7 @@ include ../libft/CMakeFiles/CMakeFiles/libft.a.dir/flags.make
 
 ../libft/CMakeFiles/CMakeFiles/libft.a.dir/ft_memchr.c.o: ../libft/CMakeFiles/CMakeFiles/libft.a.dir/flags.make
 ../libft/CMakeFiles/CMakeFiles/libft.a.dir/ft_memchr.c.o: ../libft/ft_memchr.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/okuznets/Programming/wolf3d/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object ../libft/CMakeFiles/CMakeFiles/libft.a.dir/ft_memchr.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/okuznets/Programming/wolf3d/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building C object ../libft/CMakeFiles/CMakeFiles/libft.a.dir/ft_memchr.c.o"
 	cd /Users/okuznets/Programming/wolf3d/libft/CMakeFiles && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libft.a.dir/ft_memchr.c.o   -c /Users/okuznets/Programming/wolf3d/libft/ft_memchr.c
 
 ../libft/CMakeFiles/CMakeFiles/libft.a.dir/ft_memchr.c.i: cmake_force
@@ -335,7 +348,7 @@ include ../libft/CMakeFiles/CMakeFiles/libft.a.dir/flags.make
 
 ../libft/CMakeFiles/CMakeFiles/libft.a.dir/ft_memcmp.c.o: ../libft/CMakeFiles/CMakeFiles/libft.a.dir/flags.make
 ../libft/CMakeFiles/CMakeFiles/libft.a.dir/ft_memcmp.c.o: ../libft/ft_memcmp.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/okuznets/Programming/wolf3d/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building C object ../libft/CMakeFiles/CMakeFiles/libft.a.dir/ft_memcmp.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/okuznets/Programming/wolf3d/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building C object ../libft/CMakeFiles/CMakeFiles/libft.a.dir/ft_memcmp.c.o"
 	cd /Users/okuznets/Programming/wolf3d/libft/CMakeFiles && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libft.a.dir/ft_memcmp.c.o   -c /Users/okuznets/Programming/wolf3d/libft/ft_memcmp.c
 
 ../libft/CMakeFiles/CMakeFiles/libft.a.dir/ft_memcmp.c.i: cmake_force
@@ -348,7 +361,7 @@ include ../libft/CMakeFiles/CMakeFiles/libft.a.dir/flags.make
 
 ../libft/CMakeFiles/CMakeFiles/libft.a.dir/ft_memcpy.c.o: ../libft/CMakeFiles/CMakeFiles/libft.a.dir/flags.make
 ../libft/CMakeFiles/CMakeFiles/libft.a.dir/ft_memcpy.c.o: ../libft/ft_memcpy.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/okuznets/Programming/wolf3d/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building C object ../libft/CMakeFiles/CMakeFiles/libft.a.dir/ft_memcpy.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/okuznets/Programming/wolf3d/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building C object ../libft/CMakeFiles/CMakeFiles/libft.a.dir/ft_memcpy.c.o"
 	cd /Users/okuznets/Programming/wolf3d/libft/CMakeFiles && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libft.a.dir/ft_memcpy.c.o   -c /Users/okuznets/Programming/wolf3d/libft/ft_memcpy.c
 
 ../libft/CMakeFiles/CMakeFiles/libft.a.dir/ft_memcpy.c.i: cmake_force
@@ -361,7 +374,7 @@ include ../libft/CMakeFiles/CMakeFiles/libft.a.dir/flags.make
 
 ../libft/CMakeFiles/CMakeFiles/libft.a.dir/ft_memdel.c.o: ../libft/CMakeFiles/CMakeFiles/libft.a.dir/flags.make
 ../libft/CMakeFiles/CMakeFiles/libft.a.dir/ft_memdel.c.o: ../libft/ft_memdel.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/okuznets/Programming/wolf3d/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building C object ../libft/CMakeFiles/CMakeFiles/libft.a.dir/ft_memdel.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/okuznets/Programming/wolf3d/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building C object ../libft/CMakeFiles/CMakeFiles/libft.a.dir/ft_memdel.c.o"
 	cd /Users/okuznets/Programming/wolf3d/libft/CMakeFiles && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libft.a.dir/ft_memdel.c.o   -c /Users/okuznets/Programming/wolf3d/libft/ft_memdel.c
 
 ../libft/CMakeFiles/CMakeFiles/libft.a.dir/ft_memdel.c.i: cmake_force
@@ -374,7 +387,7 @@ include ../libft/CMakeFiles/CMakeFiles/libft.a.dir/flags.make
 
 ../libft/CMakeFiles/CMakeFiles/libft.a.dir/ft_memmove.c.o: ../libft/CMakeFiles/CMakeFiles/libft.a.dir/flags.make
 ../libft/CMakeFiles/CMakeFiles/libft.a.dir/ft_memmove.c.o: ../libft/ft_memmove.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/okuznets/Programming/wolf3d/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building C object ../libft/CMakeFiles/CMakeFiles/libft.a.dir/ft_memmove.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/okuznets/Programming/wolf3d/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building C object ../libft/CMakeFiles/CMakeFiles/libft.a.dir/ft_memmove.c.o"
 	cd /Users/okuznets/Programming/wolf3d/libft/CMakeFiles && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libft.a.dir/ft_memmove.c.o   -c /Users/okuznets/Programming/wolf3d/libft/ft_memmove.c
 
 ../libft/CMakeFiles/CMakeFiles/libft.a.dir/ft_memmove.c.i: cmake_force
@@ -387,7 +400,7 @@ include ../libft/CMakeFiles/CMakeFiles/libft.a.dir/flags.make
 
 ../libft/CMakeFiles/CMakeFiles/libft.a.dir/ft_memset.c.o: ../libft/CMakeFiles/CMakeFiles/libft.a.dir/flags.make
 ../libft/CMakeFiles/CMakeFiles/libft.a.dir/ft_memset.c.o: ../libft/ft_memset.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/okuznets/Programming/wolf3d/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building C object ../libft/CMakeFiles/CMakeFiles/libft.a.dir/ft_memset.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/okuznets/Programming/wolf3d/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building C object ../libft/CMakeFiles/CMakeFiles/libft.a.dir/ft_memset.c.o"
 	cd /Users/okuznets/Programming/wolf3d/libft/CMakeFiles && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libft.a.dir/ft_memset.c.o   -c /Users/okuznets/Programming/wolf3d/libft/ft_memset.c
 
 ../libft/CMakeFiles/CMakeFiles/libft.a.dir/ft_memset.c.i: cmake_force
@@ -400,7 +413,7 @@ include ../libft/CMakeFiles/CMakeFiles/libft.a.dir/flags.make
 
 ../libft/CMakeFiles/CMakeFiles/libft.a.dir/ft_putchar.c.o: ../libft/CMakeFiles/CMakeFiles/libft.a.dir/flags.make
 ../libft/CMakeFiles/CMakeFiles/libft.a.dir/ft_putchar.c.o: ../libft/ft_putchar.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/okuznets/Programming/wolf3d/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building C object ../libft/CMakeFiles/CMakeFiles/libft.a.dir/ft_putchar.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/okuznets/Programming/wolf3d/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building C object ../libft/CMakeFiles/CMakeFiles/libft.a.dir/ft_putchar.c.o"
 	cd /Users/okuznets/Programming/wolf3d/libft/CMakeFiles && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libft.a.dir/ft_putchar.c.o   -c /Users/okuznets/Programming/wolf3d/libft/ft_putchar.c
 
 ../libft/CMakeFiles/CMakeFiles/libft.a.dir/ft_putchar.c.i: cmake_force
@@ -413,7 +426,7 @@ include ../libft/CMakeFiles/CMakeFiles/libft.a.dir/flags.make
 
 ../libft/CMakeFiles/CMakeFiles/libft.a.dir/ft_putchar_fd.c.o: ../libft/CMakeFiles/CMakeFiles/libft.a.dir/flags.make
 ../libft/CMakeFiles/CMakeFiles/libft.a.dir/ft_putchar_fd.c.o: ../libft/ft_putchar_fd.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/okuznets/Programming/wolf3d/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building C object ../libft/CMakeFiles/CMakeFiles/libft.a.dir/ft_putchar_fd.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/okuznets/Programming/wolf3d/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building C object ../libft/CMakeFiles/CMakeFiles/libft.a.dir/ft_putchar_fd.c.o"
 	cd /Users/okuznets/Programming/wolf3d/libft/CMakeFiles && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libft.a.dir/ft_putchar_fd.c.o   -c /Users/okuznets/Programming/wolf3d/libft/ft_putchar_fd.c
 
 ../libft/CMakeFiles/CMakeFiles/libft.a.dir/ft_putchar_fd.c.i: cmake_force
@@ -426,7 +439,7 @@ include ../libft/CMakeFiles/CMakeFiles/libft.a.dir/flags.make
 
 ../libft/CMakeFiles/CMakeFiles/libft.a.dir/ft_putendl.c.o: ../libft/CMakeFiles/CMakeFiles/libft.a.dir/flags.make
 ../libft/CMakeFiles/CMakeFiles/libft.a.dir/ft_putendl.c.o: ../libft/ft_putendl.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/okuznets/Programming/wolf3d/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building C object ../libft/CMakeFiles/CMakeFiles/libft.a.dir/ft_putendl.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/okuznets/Programming/wolf3d/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building C object ../libft/CMakeFiles/CMakeFiles/libft.a.dir/ft_putendl.c.o"
 	cd /Users/okuznets/Programming/wolf3d/libft/CMakeFiles && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libft.a.dir/ft_putendl.c.o   -c /Users/okuznets/Programming/wolf3d/libft/ft_putendl.c
 
 ../libft/CMakeFiles/CMakeFiles/libft.a.dir/ft_putendl.c.i: cmake_force
@@ -439,7 +452,7 @@ include ../libft/CMakeFiles/CMakeFiles/libft.a.dir/flags.make
 
 ../libft/CMakeFiles/CMakeFiles/libft.a.dir/ft_putendl_fd.c.o: ../libft/CMakeFiles/CMakeFiles/libft.a.dir/flags.make
 ../libft/CMakeFiles/CMakeFiles/libft.a.dir/ft_putendl_fd.c.o: ../libft/ft_putendl_fd.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/okuznets/Programming/wolf3d/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building C object ../libft/CMakeFiles/CMakeFiles/libft.a.dir/ft_putendl_fd.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/okuznets/Programming/wolf3d/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building C object ../libft/CMakeFiles/CMakeFiles/libft.a.dir/ft_putendl_fd.c.o"
 	cd /Users/okuznets/Programming/wolf3d/libft/CMakeFiles && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libft.a.dir/ft_putendl_fd.c.o   -c /Users/okuznets/Programming/wolf3d/libft/ft_putendl_fd.c
 
 ../libft/CMakeFiles/CMakeFiles/libft.a.dir/ft_putendl_fd.c.i: cmake_force
@@ -452,7 +465,7 @@ include ../libft/CMakeFiles/CMakeFiles/libft.a.dir/flags.make
 
 ../libft/CMakeFiles/CMakeFiles/libft.a.dir/ft_putnbr.c.o: ../libft/CMakeFiles/CMakeFiles/libft.a.dir/flags.make
 ../libft/CMakeFiles/CMakeFiles/libft.a.dir/ft_putnbr.c.o: ../libft/ft_putnbr.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/okuznets/Programming/wolf3d/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building C object ../libft/CMakeFiles/CMakeFiles/libft.a.dir/ft_putnbr.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/okuznets/Programming/wolf3d/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building C object ../libft/CMakeFiles/CMakeFiles/libft.a.dir/ft_putnbr.c.o"
 	cd /Users/okuznets/Programming/wolf3d/libft/CMakeFiles && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libft.a.dir/ft_putnbr.c.o   -c /Users/okuznets/Programming/wolf3d/libft/ft_putnbr.c
 
 ../libft/CMakeFiles/CMakeFiles/libft.a.dir/ft_putnbr.c.i: cmake_force
@@ -465,7 +478,7 @@ include ../libft/CMakeFiles/CMakeFiles/libft.a.dir/flags.make
 
 ../libft/CMakeFiles/CMakeFiles/libft.a.dir/ft_putnbr_fd.c.o: ../libft/CMakeFiles/CMakeFiles/libft.a.dir/flags.make
 ../libft/CMakeFiles/CMakeFiles/libft.a.dir/ft_putnbr_fd.c.o: ../libft/ft_putnbr_fd.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/okuznets/Programming/wolf3d/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building C object ../libft/CMakeFiles/CMakeFiles/libft.a.dir/ft_putnbr_fd.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/okuznets/Programming/wolf3d/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building C object ../libft/CMakeFiles/CMakeFiles/libft.a.dir/ft_putnbr_fd.c.o"
 	cd /Users/okuznets/Programming/wolf3d/libft/CMakeFiles && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libft.a.dir/ft_putnbr_fd.c.o   -c /Users/okuznets/Programming/wolf3d/libft/ft_putnbr_fd.c
 
 ../libft/CMakeFiles/CMakeFiles/libft.a.dir/ft_putnbr_fd.c.i: cmake_force
@@ -478,7 +491,7 @@ include ../libft/CMakeFiles/CMakeFiles/libft.a.dir/flags.make
 
 ../libft/CMakeFiles/CMakeFiles/libft.a.dir/ft_putstr.c.o: ../libft/CMakeFiles/CMakeFiles/libft.a.dir/flags.make
 ../libft/CMakeFiles/CMakeFiles/libft.a.dir/ft_putstr.c.o: ../libft/ft_putstr.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/okuznets/Programming/wolf3d/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building C object ../libft/CMakeFiles/CMakeFiles/libft.a.dir/ft_putstr.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/okuznets/Programming/wolf3d/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building C object ../libft/CMakeFiles/CMakeFiles/libft.a.dir/ft_putstr.c.o"
 	cd /Users/okuznets/Programming/wolf3d/libft/CMakeFiles && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libft.a.dir/ft_putstr.c.o   -c /Users/okuznets/Programming/wolf3d/libft/ft_putstr.c
 
 ../libft/CMakeFiles/CMakeFiles/libft.a.dir/ft_putstr.c.i: cmake_force
@@ -491,7 +504,7 @@ include ../libft/CMakeFiles/CMakeFiles/libft.a.dir/flags.make
 
 ../libft/CMakeFiles/CMakeFiles/libft.a.dir/ft_putstr_fd.c.o: ../libft/CMakeFiles/CMakeFiles/libft.a.dir/flags.make
 ../libft/CMakeFiles/CMakeFiles/libft.a.dir/ft_putstr_fd.c.o: ../libft/ft_putstr_fd.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/okuznets/Programming/wolf3d/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building C object ../libft/CMakeFiles/CMakeFiles/libft.a.dir/ft_putstr_fd.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/okuznets/Programming/wolf3d/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building C object ../libft/CMakeFiles/CMakeFiles/libft.a.dir/ft_putstr_fd.c.o"
 	cd /Users/okuznets/Programming/wolf3d/libft/CMakeFiles && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libft.a.dir/ft_putstr_fd.c.o   -c /Users/okuznets/Programming/wolf3d/libft/ft_putstr_fd.c
 
 ../libft/CMakeFiles/CMakeFiles/libft.a.dir/ft_putstr_fd.c.i: cmake_force
@@ -504,7 +517,7 @@ include ../libft/CMakeFiles/CMakeFiles/libft.a.dir/flags.make
 
 ../libft/CMakeFiles/CMakeFiles/libft.a.dir/ft_putstr_till.c.o: ../libft/CMakeFiles/CMakeFiles/libft.a.dir/flags.make
 ../libft/CMakeFiles/CMakeFiles/libft.a.dir/ft_putstr_till.c.o: ../libft/ft_putstr_till.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/okuznets/Programming/wolf3d/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building C object ../libft/CMakeFiles/CMakeFiles/libft.a.dir/ft_putstr_till.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/okuznets/Programming/wolf3d/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building C object ../libft/CMakeFiles/CMakeFiles/libft.a.dir/ft_putstr_till.c.o"
 	cd /Users/okuznets/Programming/wolf3d/libft/CMakeFiles && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libft.a.dir/ft_putstr_till.c.o   -c /Users/okuznets/Programming/wolf3d/libft/ft_putstr_till.c
 
 ../libft/CMakeFiles/CMakeFiles/libft.a.dir/ft_putstr_till.c.i: cmake_force
@@ -517,7 +530,7 @@ include ../libft/CMakeFiles/CMakeFiles/libft.a.dir/flags.make
 
 ../libft/CMakeFiles/CMakeFiles/libft.a.dir/ft_strcat.c.o: ../libft/CMakeFiles/CMakeFiles/libft.a.dir/flags.make
 ../libft/CMakeFiles/CMakeFiles/libft.a.dir/ft_strcat.c.o: ../libft/ft_strcat.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/okuznets/Programming/wolf3d/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building C object ../libft/CMakeFiles/CMakeFiles/libft.a.dir/ft_strcat.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/okuznets/Programming/wolf3d/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building C object ../libft/CMakeFiles/CMakeFiles/libft.a.dir/ft_strcat.c.o"
 	cd /Users/okuznets/Programming/wolf3d/libft/CMakeFiles && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libft.a.dir/ft_strcat.c.o   -c /Users/okuznets/Programming/wolf3d/libft/ft_strcat.c
 
 ../libft/CMakeFiles/CMakeFiles/libft.a.dir/ft_strcat.c.i: cmake_force
@@ -530,7 +543,7 @@ include ../libft/CMakeFiles/CMakeFiles/libft.a.dir/flags.make
 
 ../libft/CMakeFiles/CMakeFiles/libft.a.dir/ft_strclr.c.o: ../libft/CMakeFiles/CMakeFiles/libft.a.dir/flags.make
 ../libft/CMakeFiles/CMakeFiles/libft.a.dir/ft_strclr.c.o: ../libft/ft_strclr.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/okuznets/Programming/wolf3d/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building C object ../libft/CMakeFiles/CMakeFiles/libft.a.dir/ft_strclr.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/okuznets/Programming/wolf3d/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building C object ../libft/CMakeFiles/CMakeFiles/libft.a.dir/ft_strclr.c.o"
 	cd /Users/okuznets/Programming/wolf3d/libft/CMakeFiles && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libft.a.dir/ft_strclr.c.o   -c /Users/okuznets/Programming/wolf3d/libft/ft_strclr.c
 
 ../libft/CMakeFiles/CMakeFiles/libft.a.dir/ft_strclr.c.i: cmake_force
@@ -543,7 +556,7 @@ include ../libft/CMakeFiles/CMakeFiles/libft.a.dir/flags.make
 
 ../libft/CMakeFiles/CMakeFiles/libft.a.dir/ft_strcmp.c.o: ../libft/CMakeFiles/CMakeFiles/libft.a.dir/flags.make
 ../libft/CMakeFiles/CMakeFiles/libft.a.dir/ft_strcmp.c.o: ../libft/ft_strcmp.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/okuznets/Programming/wolf3d/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building C object ../libft/CMakeFiles/CMakeFiles/libft.a.dir/ft_strcmp.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/okuznets/Programming/wolf3d/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building C object ../libft/CMakeFiles/CMakeFiles/libft.a.dir/ft_strcmp.c.o"
 	cd /Users/okuznets/Programming/wolf3d/libft/CMakeFiles && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libft.a.dir/ft_strcmp.c.o   -c /Users/okuznets/Programming/wolf3d/libft/ft_strcmp.c
 
 ../libft/CMakeFiles/CMakeFiles/libft.a.dir/ft_strcmp.c.i: cmake_force
@@ -556,7 +569,7 @@ include ../libft/CMakeFiles/CMakeFiles/libft.a.dir/flags.make
 
 ../libft/CMakeFiles/CMakeFiles/libft.a.dir/ft_strcpy.c.o: ../libft/CMakeFiles/CMakeFiles/libft.a.dir/flags.make
 ../libft/CMakeFiles/CMakeFiles/libft.a.dir/ft_strcpy.c.o: ../libft/ft_strcpy.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/okuznets/Programming/wolf3d/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building C object ../libft/CMakeFiles/CMakeFiles/libft.a.dir/ft_strcpy.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/okuznets/Programming/wolf3d/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building C object ../libft/CMakeFiles/CMakeFiles/libft.a.dir/ft_strcpy.c.o"
 	cd /Users/okuznets/Programming/wolf3d/libft/CMakeFiles && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libft.a.dir/ft_strcpy.c.o   -c /Users/okuznets/Programming/wolf3d/libft/ft_strcpy.c
 
 ../libft/CMakeFiles/CMakeFiles/libft.a.dir/ft_strcpy.c.i: cmake_force
@@ -569,7 +582,7 @@ include ../libft/CMakeFiles/CMakeFiles/libft.a.dir/flags.make
 
 ../libft/CMakeFiles/CMakeFiles/libft.a.dir/ft_strdel.c.o: ../libft/CMakeFiles/CMakeFiles/libft.a.dir/flags.make
 ../libft/CMakeFiles/CMakeFiles/libft.a.dir/ft_strdel.c.o: ../libft/ft_strdel.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/okuznets/Programming/wolf3d/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building C object ../libft/CMakeFiles/CMakeFiles/libft.a.dir/ft_strdel.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/okuznets/Programming/wolf3d/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building C object ../libft/CMakeFiles/CMakeFiles/libft.a.dir/ft_strdel.c.o"
 	cd /Users/okuznets/Programming/wolf3d/libft/CMakeFiles && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libft.a.dir/ft_strdel.c.o   -c /Users/okuznets/Programming/wolf3d/libft/ft_strdel.c
 
 ../libft/CMakeFiles/CMakeFiles/libft.a.dir/ft_strdel.c.i: cmake_force
@@ -582,7 +595,7 @@ include ../libft/CMakeFiles/CMakeFiles/libft.a.dir/flags.make
 
 ../libft/CMakeFiles/CMakeFiles/libft.a.dir/ft_strdup.c.o: ../libft/CMakeFiles/CMakeFiles/libft.a.dir/flags.make
 ../libft/CMakeFiles/CMakeFiles/libft.a.dir/ft_strdup.c.o: ../libft/ft_strdup.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/okuznets/Programming/wolf3d/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building C object ../libft/CMakeFiles/CMakeFiles/libft.a.dir/ft_strdup.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/okuznets/Programming/wolf3d/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Building C object ../libft/CMakeFiles/CMakeFiles/libft.a.dir/ft_strdup.c.o"
 	cd /Users/okuznets/Programming/wolf3d/libft/CMakeFiles && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libft.a.dir/ft_strdup.c.o   -c /Users/okuznets/Programming/wolf3d/libft/ft_strdup.c
 
 ../libft/CMakeFiles/CMakeFiles/libft.a.dir/ft_strdup.c.i: cmake_force
@@ -595,7 +608,7 @@ include ../libft/CMakeFiles/CMakeFiles/libft.a.dir/flags.make
 
 ../libft/CMakeFiles/CMakeFiles/libft.a.dir/ft_strequ.c.o: ../libft/CMakeFiles/CMakeFiles/libft.a.dir/flags.make
 ../libft/CMakeFiles/CMakeFiles/libft.a.dir/ft_strequ.c.o: ../libft/ft_strequ.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/okuznets/Programming/wolf3d/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Building C object ../libft/CMakeFiles/CMakeFiles/libft.a.dir/ft_strequ.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/okuznets/Programming/wolf3d/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Building C object ../libft/CMakeFiles/CMakeFiles/libft.a.dir/ft_strequ.c.o"
 	cd /Users/okuznets/Programming/wolf3d/libft/CMakeFiles && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libft.a.dir/ft_strequ.c.o   -c /Users/okuznets/Programming/wolf3d/libft/ft_strequ.c
 
 ../libft/CMakeFiles/CMakeFiles/libft.a.dir/ft_strequ.c.i: cmake_force
@@ -608,7 +621,7 @@ include ../libft/CMakeFiles/CMakeFiles/libft.a.dir/flags.make
 
 ../libft/CMakeFiles/CMakeFiles/libft.a.dir/ft_striter.c.o: ../libft/CMakeFiles/CMakeFiles/libft.a.dir/flags.make
 ../libft/CMakeFiles/CMakeFiles/libft.a.dir/ft_striter.c.o: ../libft/ft_striter.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/okuznets/Programming/wolf3d/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Building C object ../libft/CMakeFiles/CMakeFiles/libft.a.dir/ft_striter.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/okuznets/Programming/wolf3d/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Building C object ../libft/CMakeFiles/CMakeFiles/libft.a.dir/ft_striter.c.o"
 	cd /Users/okuznets/Programming/wolf3d/libft/CMakeFiles && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libft.a.dir/ft_striter.c.o   -c /Users/okuznets/Programming/wolf3d/libft/ft_striter.c
 
 ../libft/CMakeFiles/CMakeFiles/libft.a.dir/ft_striter.c.i: cmake_force
@@ -621,7 +634,7 @@ include ../libft/CMakeFiles/CMakeFiles/libft.a.dir/flags.make
 
 ../libft/CMakeFiles/CMakeFiles/libft.a.dir/ft_striteri.c.o: ../libft/CMakeFiles/CMakeFiles/libft.a.dir/flags.make
 ../libft/CMakeFiles/CMakeFiles/libft.a.dir/ft_striteri.c.o: ../libft/ft_striteri.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/okuznets/Programming/wolf3d/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Building C object ../libft/CMakeFiles/CMakeFiles/libft.a.dir/ft_striteri.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/okuznets/Programming/wolf3d/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Building C object ../libft/CMakeFiles/CMakeFiles/libft.a.dir/ft_striteri.c.o"
 	cd /Users/okuznets/Programming/wolf3d/libft/CMakeFiles && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libft.a.dir/ft_striteri.c.o   -c /Users/okuznets/Programming/wolf3d/libft/ft_striteri.c
 
 ../libft/CMakeFiles/CMakeFiles/libft.a.dir/ft_striteri.c.i: cmake_force
@@ -634,7 +647,7 @@ include ../libft/CMakeFiles/CMakeFiles/libft.a.dir/flags.make
 
 ../libft/CMakeFiles/CMakeFiles/libft.a.dir/ft_strjoin.c.o: ../libft/CMakeFiles/CMakeFiles/libft.a.dir/flags.make
 ../libft/CMakeFiles/CMakeFiles/libft.a.dir/ft_strjoin.c.o: ../libft/ft_strjoin.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/okuznets/Programming/wolf3d/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Building C object ../libft/CMakeFiles/CMakeFiles/libft.a.dir/ft_strjoin.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/okuznets/Programming/wolf3d/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Building C object ../libft/CMakeFiles/CMakeFiles/libft.a.dir/ft_strjoin.c.o"
 	cd /Users/okuznets/Programming/wolf3d/libft/CMakeFiles && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libft.a.dir/ft_strjoin.c.o   -c /Users/okuznets/Programming/wolf3d/libft/ft_strjoin.c
 
 ../libft/CMakeFiles/CMakeFiles/libft.a.dir/ft_strjoin.c.i: cmake_force
@@ -647,7 +660,7 @@ include ../libft/CMakeFiles/CMakeFiles/libft.a.dir/flags.make
 
 ../libft/CMakeFiles/CMakeFiles/libft.a.dir/ft_strlcat.c.o: ../libft/CMakeFiles/CMakeFiles/libft.a.dir/flags.make
 ../libft/CMakeFiles/CMakeFiles/libft.a.dir/ft_strlcat.c.o: ../libft/ft_strlcat.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/okuznets/Programming/wolf3d/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Building C object ../libft/CMakeFiles/CMakeFiles/libft.a.dir/ft_strlcat.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/okuznets/Programming/wolf3d/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Building C object ../libft/CMakeFiles/CMakeFiles/libft.a.dir/ft_strlcat.c.o"
 	cd /Users/okuznets/Programming/wolf3d/libft/CMakeFiles && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libft.a.dir/ft_strlcat.c.o   -c /Users/okuznets/Programming/wolf3d/libft/ft_strlcat.c
 
 ../libft/CMakeFiles/CMakeFiles/libft.a.dir/ft_strlcat.c.i: cmake_force
@@ -660,7 +673,7 @@ include ../libft/CMakeFiles/CMakeFiles/libft.a.dir/flags.make
 
 ../libft/CMakeFiles/CMakeFiles/libft.a.dir/ft_strlen.c.o: ../libft/CMakeFiles/CMakeFiles/libft.a.dir/flags.make
 ../libft/CMakeFiles/CMakeFiles/libft.a.dir/ft_strlen.c.o: ../libft/ft_strlen.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/okuznets/Programming/wolf3d/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Building C object ../libft/CMakeFiles/CMakeFiles/libft.a.dir/ft_strlen.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/okuznets/Programming/wolf3d/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Building C object ../libft/CMakeFiles/CMakeFiles/libft.a.dir/ft_strlen.c.o"
 	cd /Users/okuznets/Programming/wolf3d/libft/CMakeFiles && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libft.a.dir/ft_strlen.c.o   -c /Users/okuznets/Programming/wolf3d/libft/ft_strlen.c
 
 ../libft/CMakeFiles/CMakeFiles/libft.a.dir/ft_strlen.c.i: cmake_force
@@ -673,7 +686,7 @@ include ../libft/CMakeFiles/CMakeFiles/libft.a.dir/flags.make
 
 ../libft/CMakeFiles/CMakeFiles/libft.a.dir/ft_strmap.c.o: ../libft/CMakeFiles/CMakeFiles/libft.a.dir/flags.make
 ../libft/CMakeFiles/CMakeFiles/libft.a.dir/ft_strmap.c.o: ../libft/ft_strmap.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/okuznets/Programming/wolf3d/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Building C object ../libft/CMakeFiles/CMakeFiles/libft.a.dir/ft_strmap.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/okuznets/Programming/wolf3d/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Building C object ../libft/CMakeFiles/CMakeFiles/libft.a.dir/ft_strmap.c.o"
 	cd /Users/okuznets/Programming/wolf3d/libft/CMakeFiles && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libft.a.dir/ft_strmap.c.o   -c /Users/okuznets/Programming/wolf3d/libft/ft_strmap.c
 
 ../libft/CMakeFiles/CMakeFiles/libft.a.dir/ft_strmap.c.i: cmake_force
@@ -686,7 +699,7 @@ include ../libft/CMakeFiles/CMakeFiles/libft.a.dir/flags.make
 
 ../libft/CMakeFiles/CMakeFiles/libft.a.dir/ft_strmapi.c.o: ../libft/CMakeFiles/CMakeFiles/libft.a.dir/flags.make
 ../libft/CMakeFiles/CMakeFiles/libft.a.dir/ft_strmapi.c.o: ../libft/ft_strmapi.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/okuznets/Programming/wolf3d/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Building C object ../libft/CMakeFiles/CMakeFiles/libft.a.dir/ft_strmapi.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/okuznets/Programming/wolf3d/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_50) "Building C object ../libft/CMakeFiles/CMakeFiles/libft.a.dir/ft_strmapi.c.o"
 	cd /Users/okuznets/Programming/wolf3d/libft/CMakeFiles && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libft.a.dir/ft_strmapi.c.o   -c /Users/okuznets/Programming/wolf3d/libft/ft_strmapi.c
 
 ../libft/CMakeFiles/CMakeFiles/libft.a.dir/ft_strmapi.c.i: cmake_force
@@ -699,7 +712,7 @@ include ../libft/CMakeFiles/CMakeFiles/libft.a.dir/flags.make
 
 ../libft/CMakeFiles/CMakeFiles/libft.a.dir/ft_strncat.c.o: ../libft/CMakeFiles/CMakeFiles/libft.a.dir/flags.make
 ../libft/CMakeFiles/CMakeFiles/libft.a.dir/ft_strncat.c.o: ../libft/ft_strncat.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/okuznets/Programming/wolf3d/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_50) "Building C object ../libft/CMakeFiles/CMakeFiles/libft.a.dir/ft_strncat.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/okuznets/Programming/wolf3d/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_51) "Building C object ../libft/CMakeFiles/CMakeFiles/libft.a.dir/ft_strncat.c.o"
 	cd /Users/okuznets/Programming/wolf3d/libft/CMakeFiles && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libft.a.dir/ft_strncat.c.o   -c /Users/okuznets/Programming/wolf3d/libft/ft_strncat.c
 
 ../libft/CMakeFiles/CMakeFiles/libft.a.dir/ft_strncat.c.i: cmake_force
@@ -712,7 +725,7 @@ include ../libft/CMakeFiles/CMakeFiles/libft.a.dir/flags.make
 
 ../libft/CMakeFiles/CMakeFiles/libft.a.dir/ft_strncmp.c.o: ../libft/CMakeFiles/CMakeFiles/libft.a.dir/flags.make
 ../libft/CMakeFiles/CMakeFiles/libft.a.dir/ft_strncmp.c.o: ../libft/ft_strncmp.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/okuznets/Programming/wolf3d/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_51) "Building C object ../libft/CMakeFiles/CMakeFiles/libft.a.dir/ft_strncmp.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/okuznets/Programming/wolf3d/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_52) "Building C object ../libft/CMakeFiles/CMakeFiles/libft.a.dir/ft_strncmp.c.o"
 	cd /Users/okuznets/Programming/wolf3d/libft/CMakeFiles && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libft.a.dir/ft_strncmp.c.o   -c /Users/okuznets/Programming/wolf3d/libft/ft_strncmp.c
 
 ../libft/CMakeFiles/CMakeFiles/libft.a.dir/ft_strncmp.c.i: cmake_force
@@ -725,7 +738,7 @@ include ../libft/CMakeFiles/CMakeFiles/libft.a.dir/flags.make
 
 ../libft/CMakeFiles/CMakeFiles/libft.a.dir/ft_strncpy.c.o: ../libft/CMakeFiles/CMakeFiles/libft.a.dir/flags.make
 ../libft/CMakeFiles/CMakeFiles/libft.a.dir/ft_strncpy.c.o: ../libft/ft_strncpy.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/okuznets/Programming/wolf3d/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_52) "Building C object ../libft/CMakeFiles/CMakeFiles/libft.a.dir/ft_strncpy.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/okuznets/Programming/wolf3d/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_53) "Building C object ../libft/CMakeFiles/CMakeFiles/libft.a.dir/ft_strncpy.c.o"
 	cd /Users/okuznets/Programming/wolf3d/libft/CMakeFiles && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libft.a.dir/ft_strncpy.c.o   -c /Users/okuznets/Programming/wolf3d/libft/ft_strncpy.c
 
 ../libft/CMakeFiles/CMakeFiles/libft.a.dir/ft_strncpy.c.i: cmake_force
@@ -738,7 +751,7 @@ include ../libft/CMakeFiles/CMakeFiles/libft.a.dir/flags.make
 
 ../libft/CMakeFiles/CMakeFiles/libft.a.dir/ft_strnequ.c.o: ../libft/CMakeFiles/CMakeFiles/libft.a.dir/flags.make
 ../libft/CMakeFiles/CMakeFiles/libft.a.dir/ft_strnequ.c.o: ../libft/ft_strnequ.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/okuznets/Programming/wolf3d/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_53) "Building C object ../libft/CMakeFiles/CMakeFiles/libft.a.dir/ft_strnequ.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/okuznets/Programming/wolf3d/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_54) "Building C object ../libft/CMakeFiles/CMakeFiles/libft.a.dir/ft_strnequ.c.o"
 	cd /Users/okuznets/Programming/wolf3d/libft/CMakeFiles && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libft.a.dir/ft_strnequ.c.o   -c /Users/okuznets/Programming/wolf3d/libft/ft_strnequ.c
 
 ../libft/CMakeFiles/CMakeFiles/libft.a.dir/ft_strnequ.c.i: cmake_force
@@ -751,7 +764,7 @@ include ../libft/CMakeFiles/CMakeFiles/libft.a.dir/flags.make
 
 ../libft/CMakeFiles/CMakeFiles/libft.a.dir/ft_strnew.c.o: ../libft/CMakeFiles/CMakeFiles/libft.a.dir/flags.make
 ../libft/CMakeFiles/CMakeFiles/libft.a.dir/ft_strnew.c.o: ../libft/ft_strnew.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/okuznets/Programming/wolf3d/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_54) "Building C object ../libft/CMakeFiles/CMakeFiles/libft.a.dir/ft_strnew.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/okuznets/Programming/wolf3d/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_55) "Building C object ../libft/CMakeFiles/CMakeFiles/libft.a.dir/ft_strnew.c.o"
 	cd /Users/okuznets/Programming/wolf3d/libft/CMakeFiles && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libft.a.dir/ft_strnew.c.o   -c /Users/okuznets/Programming/wolf3d/libft/ft_strnew.c
 
 ../libft/CMakeFiles/CMakeFiles/libft.a.dir/ft_strnew.c.i: cmake_force
@@ -764,7 +777,7 @@ include ../libft/CMakeFiles/CMakeFiles/libft.a.dir/flags.make
 
 ../libft/CMakeFiles/CMakeFiles/libft.a.dir/ft_strnstr.c.o: ../libft/CMakeFiles/CMakeFiles/libft.a.dir/flags.make
 ../libft/CMakeFiles/CMakeFiles/libft.a.dir/ft_strnstr.c.o: ../libft/ft_strnstr.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/okuznets/Programming/wolf3d/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_55) "Building C object ../libft/CMakeFiles/CMakeFiles/libft.a.dir/ft_strnstr.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/okuznets/Programming/wolf3d/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_56) "Building C object ../libft/CMakeFiles/CMakeFiles/libft.a.dir/ft_strnstr.c.o"
 	cd /Users/okuznets/Programming/wolf3d/libft/CMakeFiles && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libft.a.dir/ft_strnstr.c.o   -c /Users/okuznets/Programming/wolf3d/libft/ft_strnstr.c
 
 ../libft/CMakeFiles/CMakeFiles/libft.a.dir/ft_strnstr.c.i: cmake_force
@@ -777,7 +790,7 @@ include ../libft/CMakeFiles/CMakeFiles/libft.a.dir/flags.make
 
 ../libft/CMakeFiles/CMakeFiles/libft.a.dir/ft_strrchr.c.o: ../libft/CMakeFiles/CMakeFiles/libft.a.dir/flags.make
 ../libft/CMakeFiles/CMakeFiles/libft.a.dir/ft_strrchr.c.o: ../libft/ft_strrchr.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/okuznets/Programming/wolf3d/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_56) "Building C object ../libft/CMakeFiles/CMakeFiles/libft.a.dir/ft_strrchr.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/okuznets/Programming/wolf3d/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_57) "Building C object ../libft/CMakeFiles/CMakeFiles/libft.a.dir/ft_strrchr.c.o"
 	cd /Users/okuznets/Programming/wolf3d/libft/CMakeFiles && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libft.a.dir/ft_strrchr.c.o   -c /Users/okuznets/Programming/wolf3d/libft/ft_strrchr.c
 
 ../libft/CMakeFiles/CMakeFiles/libft.a.dir/ft_strrchr.c.i: cmake_force
@@ -790,7 +803,7 @@ include ../libft/CMakeFiles/CMakeFiles/libft.a.dir/flags.make
 
 ../libft/CMakeFiles/CMakeFiles/libft.a.dir/ft_strrev.c.o: ../libft/CMakeFiles/CMakeFiles/libft.a.dir/flags.make
 ../libft/CMakeFiles/CMakeFiles/libft.a.dir/ft_strrev.c.o: ../libft/ft_strrev.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/okuznets/Programming/wolf3d/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_57) "Building C object ../libft/CMakeFiles/CMakeFiles/libft.a.dir/ft_strrev.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/okuznets/Programming/wolf3d/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_58) "Building C object ../libft/CMakeFiles/CMakeFiles/libft.a.dir/ft_strrev.c.o"
 	cd /Users/okuznets/Programming/wolf3d/libft/CMakeFiles && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libft.a.dir/ft_strrev.c.o   -c /Users/okuznets/Programming/wolf3d/libft/ft_strrev.c
 
 ../libft/CMakeFiles/CMakeFiles/libft.a.dir/ft_strrev.c.i: cmake_force
@@ -803,7 +816,7 @@ include ../libft/CMakeFiles/CMakeFiles/libft.a.dir/flags.make
 
 ../libft/CMakeFiles/CMakeFiles/libft.a.dir/ft_strsplit.c.o: ../libft/CMakeFiles/CMakeFiles/libft.a.dir/flags.make
 ../libft/CMakeFiles/CMakeFiles/libft.a.dir/ft_strsplit.c.o: ../libft/ft_strsplit.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/okuznets/Programming/wolf3d/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_58) "Building C object ../libft/CMakeFiles/CMakeFiles/libft.a.dir/ft_strsplit.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/okuznets/Programming/wolf3d/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_59) "Building C object ../libft/CMakeFiles/CMakeFiles/libft.a.dir/ft_strsplit.c.o"
 	cd /Users/okuznets/Programming/wolf3d/libft/CMakeFiles && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libft.a.dir/ft_strsplit.c.o   -c /Users/okuznets/Programming/wolf3d/libft/ft_strsplit.c
 
 ../libft/CMakeFiles/CMakeFiles/libft.a.dir/ft_strsplit.c.i: cmake_force
@@ -816,7 +829,7 @@ include ../libft/CMakeFiles/CMakeFiles/libft.a.dir/flags.make
 
 ../libft/CMakeFiles/CMakeFiles/libft.a.dir/ft_strstr.c.o: ../libft/CMakeFiles/CMakeFiles/libft.a.dir/flags.make
 ../libft/CMakeFiles/CMakeFiles/libft.a.dir/ft_strstr.c.o: ../libft/ft_strstr.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/okuznets/Programming/wolf3d/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_59) "Building C object ../libft/CMakeFiles/CMakeFiles/libft.a.dir/ft_strstr.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/okuznets/Programming/wolf3d/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_60) "Building C object ../libft/CMakeFiles/CMakeFiles/libft.a.dir/ft_strstr.c.o"
 	cd /Users/okuznets/Programming/wolf3d/libft/CMakeFiles && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libft.a.dir/ft_strstr.c.o   -c /Users/okuznets/Programming/wolf3d/libft/ft_strstr.c
 
 ../libft/CMakeFiles/CMakeFiles/libft.a.dir/ft_strstr.c.i: cmake_force
@@ -829,7 +842,7 @@ include ../libft/CMakeFiles/CMakeFiles/libft.a.dir/flags.make
 
 ../libft/CMakeFiles/CMakeFiles/libft.a.dir/ft_strsub.c.o: ../libft/CMakeFiles/CMakeFiles/libft.a.dir/flags.make
 ../libft/CMakeFiles/CMakeFiles/libft.a.dir/ft_strsub.c.o: ../libft/ft_strsub.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/okuznets/Programming/wolf3d/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_60) "Building C object ../libft/CMakeFiles/CMakeFiles/libft.a.dir/ft_strsub.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/okuznets/Programming/wolf3d/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_61) "Building C object ../libft/CMakeFiles/CMakeFiles/libft.a.dir/ft_strsub.c.o"
 	cd /Users/okuznets/Programming/wolf3d/libft/CMakeFiles && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libft.a.dir/ft_strsub.c.o   -c /Users/okuznets/Programming/wolf3d/libft/ft_strsub.c
 
 ../libft/CMakeFiles/CMakeFiles/libft.a.dir/ft_strsub.c.i: cmake_force
@@ -842,7 +855,7 @@ include ../libft/CMakeFiles/CMakeFiles/libft.a.dir/flags.make
 
 ../libft/CMakeFiles/CMakeFiles/libft.a.dir/ft_strtrim.c.o: ../libft/CMakeFiles/CMakeFiles/libft.a.dir/flags.make
 ../libft/CMakeFiles/CMakeFiles/libft.a.dir/ft_strtrim.c.o: ../libft/ft_strtrim.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/okuznets/Programming/wolf3d/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_61) "Building C object ../libft/CMakeFiles/CMakeFiles/libft.a.dir/ft_strtrim.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/okuznets/Programming/wolf3d/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_62) "Building C object ../libft/CMakeFiles/CMakeFiles/libft.a.dir/ft_strtrim.c.o"
 	cd /Users/okuznets/Programming/wolf3d/libft/CMakeFiles && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libft.a.dir/ft_strtrim.c.o   -c /Users/okuznets/Programming/wolf3d/libft/ft_strtrim.c
 
 ../libft/CMakeFiles/CMakeFiles/libft.a.dir/ft_strtrim.c.i: cmake_force
@@ -855,7 +868,7 @@ include ../libft/CMakeFiles/CMakeFiles/libft.a.dir/flags.make
 
 ../libft/CMakeFiles/CMakeFiles/libft.a.dir/ft_tolower.c.o: ../libft/CMakeFiles/CMakeFiles/libft.a.dir/flags.make
 ../libft/CMakeFiles/CMakeFiles/libft.a.dir/ft_tolower.c.o: ../libft/ft_tolower.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/okuznets/Programming/wolf3d/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_62) "Building C object ../libft/CMakeFiles/CMakeFiles/libft.a.dir/ft_tolower.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/okuznets/Programming/wolf3d/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_63) "Building C object ../libft/CMakeFiles/CMakeFiles/libft.a.dir/ft_tolower.c.o"
 	cd /Users/okuznets/Programming/wolf3d/libft/CMakeFiles && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libft.a.dir/ft_tolower.c.o   -c /Users/okuznets/Programming/wolf3d/libft/ft_tolower.c
 
 ../libft/CMakeFiles/CMakeFiles/libft.a.dir/ft_tolower.c.i: cmake_force
@@ -868,7 +881,7 @@ include ../libft/CMakeFiles/CMakeFiles/libft.a.dir/flags.make
 
 ../libft/CMakeFiles/CMakeFiles/libft.a.dir/ft_toupper.c.o: ../libft/CMakeFiles/CMakeFiles/libft.a.dir/flags.make
 ../libft/CMakeFiles/CMakeFiles/libft.a.dir/ft_toupper.c.o: ../libft/ft_toupper.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/okuznets/Programming/wolf3d/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_63) "Building C object ../libft/CMakeFiles/CMakeFiles/libft.a.dir/ft_toupper.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/okuznets/Programming/wolf3d/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_64) "Building C object ../libft/CMakeFiles/CMakeFiles/libft.a.dir/ft_toupper.c.o"
 	cd /Users/okuznets/Programming/wolf3d/libft/CMakeFiles && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libft.a.dir/ft_toupper.c.o   -c /Users/okuznets/Programming/wolf3d/libft/ft_toupper.c
 
 ../libft/CMakeFiles/CMakeFiles/libft.a.dir/ft_toupper.c.i: cmake_force
@@ -881,7 +894,7 @@ include ../libft/CMakeFiles/CMakeFiles/libft.a.dir/flags.make
 
 ../libft/CMakeFiles/CMakeFiles/libft.a.dir/ft_strchr.c.o: ../libft/CMakeFiles/CMakeFiles/libft.a.dir/flags.make
 ../libft/CMakeFiles/CMakeFiles/libft.a.dir/ft_strchr.c.o: ../libft/ft_strchr.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/okuznets/Programming/wolf3d/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_64) "Building C object ../libft/CMakeFiles/CMakeFiles/libft.a.dir/ft_strchr.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/okuznets/Programming/wolf3d/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_65) "Building C object ../libft/CMakeFiles/CMakeFiles/libft.a.dir/ft_strchr.c.o"
 	cd /Users/okuznets/Programming/wolf3d/libft/CMakeFiles && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libft.a.dir/ft_strchr.c.o   -c /Users/okuznets/Programming/wolf3d/libft/ft_strchr.c
 
 ../libft/CMakeFiles/CMakeFiles/libft.a.dir/ft_strchr.c.i: cmake_force
@@ -894,7 +907,7 @@ include ../libft/CMakeFiles/CMakeFiles/libft.a.dir/flags.make
 
 ../libft/CMakeFiles/CMakeFiles/libft.a.dir/get_next_line.c.o: ../libft/CMakeFiles/CMakeFiles/libft.a.dir/flags.make
 ../libft/CMakeFiles/CMakeFiles/libft.a.dir/get_next_line.c.o: ../libft/get_next_line.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/okuznets/Programming/wolf3d/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_65) "Building C object ../libft/CMakeFiles/CMakeFiles/libft.a.dir/get_next_line.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/okuznets/Programming/wolf3d/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_66) "Building C object ../libft/CMakeFiles/CMakeFiles/libft.a.dir/get_next_line.c.o"
 	cd /Users/okuznets/Programming/wolf3d/libft/CMakeFiles && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/libft.a.dir/get_next_line.c.o   -c /Users/okuznets/Programming/wolf3d/libft/get_next_line.c
 
 ../libft/CMakeFiles/CMakeFiles/libft.a.dir/get_next_line.c.i: cmake_force
@@ -919,6 +932,7 @@ libft_a_OBJECTS = \
 "CMakeFiles/libft.a.dir/ft_atoi.c.o" \
 "CMakeFiles/libft.a.dir/ft_itoa.c.o" \
 "CMakeFiles/libft.a.dir/ft_bzero.c.o" \
+"CMakeFiles/libft.a.dir/ft_lst_push_back.c.o" \
 "CMakeFiles/libft.a.dir/ft_lstadd.c.o" \
 "CMakeFiles/libft.a.dir/ft_lstdel.c.o" \
 "CMakeFiles/libft.a.dir/ft_lstdelone.c.o" \
@@ -988,6 +1002,7 @@ libft_a_EXTERNAL_OBJECTS =
 ../libft/CMakeFiles/liblibft.a.a: ../libft/CMakeFiles/CMakeFiles/libft.a.dir/ft_atoi.c.o
 ../libft/CMakeFiles/liblibft.a.a: ../libft/CMakeFiles/CMakeFiles/libft.a.dir/ft_itoa.c.o
 ../libft/CMakeFiles/liblibft.a.a: ../libft/CMakeFiles/CMakeFiles/libft.a.dir/ft_bzero.c.o
+../libft/CMakeFiles/liblibft.a.a: ../libft/CMakeFiles/CMakeFiles/libft.a.dir/ft_lst_push_back.c.o
 ../libft/CMakeFiles/liblibft.a.a: ../libft/CMakeFiles/CMakeFiles/libft.a.dir/ft_lstadd.c.o
 ../libft/CMakeFiles/liblibft.a.a: ../libft/CMakeFiles/CMakeFiles/libft.a.dir/ft_lstdel.c.o
 ../libft/CMakeFiles/liblibft.a.a: ../libft/CMakeFiles/CMakeFiles/libft.a.dir/ft_lstdelone.c.o
@@ -1043,7 +1058,7 @@ libft_a_EXTERNAL_OBJECTS =
 ../libft/CMakeFiles/liblibft.a.a: ../libft/CMakeFiles/CMakeFiles/libft.a.dir/get_next_line.c.o
 ../libft/CMakeFiles/liblibft.a.a: ../libft/CMakeFiles/CMakeFiles/libft.a.dir/build.make
 ../libft/CMakeFiles/liblibft.a.a: ../libft/CMakeFiles/CMakeFiles/libft.a.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/okuznets/Programming/wolf3d/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_66) "Linking C static library liblibft.a.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/okuznets/Programming/wolf3d/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_67) "Linking C static library liblibft.a.a"
 	cd /Users/okuznets/Programming/wolf3d/libft/CMakeFiles && $(CMAKE_COMMAND) -P CMakeFiles/libft.a.dir/cmake_clean_target.cmake
 	cd /Users/okuznets/Programming/wolf3d/libft/CMakeFiles && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/libft.a.dir/link.txt --verbose=$(VERBOSE)
 

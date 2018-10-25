@@ -166,6 +166,33 @@ Srcs/checker.c.s:
 	$(MAKE) -f CMakeFiles/wolf3d.dir/build.make CMakeFiles/wolf3d.dir/Srcs/checker.c.s
 .PHONY : Srcs/checker.c.s
 
+Srcs/drawing.o: Srcs/drawing.c.o
+
+.PHONY : Srcs/drawing.o
+
+# target to build an object file
+Srcs/drawing.c.o:
+	$(MAKE) -f CMakeFiles/wolf3d.dir/build.make CMakeFiles/wolf3d.dir/Srcs/drawing.c.o
+.PHONY : Srcs/drawing.c.o
+
+Srcs/drawing.i: Srcs/drawing.c.i
+
+.PHONY : Srcs/drawing.i
+
+# target to preprocess a source file
+Srcs/drawing.c.i:
+	$(MAKE) -f CMakeFiles/wolf3d.dir/build.make CMakeFiles/wolf3d.dir/Srcs/drawing.c.i
+.PHONY : Srcs/drawing.c.i
+
+Srcs/drawing.s: Srcs/drawing.c.s
+
+.PHONY : Srcs/drawing.s
+
+# target to generate assembly for a file
+Srcs/drawing.c.s:
+	$(MAKE) -f CMakeFiles/wolf3d.dir/build.make CMakeFiles/wolf3d.dir/Srcs/drawing.c.s
+.PHONY : Srcs/drawing.c.s
+
 Srcs/main.o: Srcs/main.c.o
 
 .PHONY : Srcs/main.o
@@ -193,6 +220,33 @@ Srcs/main.c.s:
 	$(MAKE) -f CMakeFiles/wolf3d.dir/build.make CMakeFiles/wolf3d.dir/Srcs/main.c.s
 .PHONY : Srcs/main.c.s
 
+Srcs/parsing.o: Srcs/parsing.c.o
+
+.PHONY : Srcs/parsing.o
+
+# target to build an object file
+Srcs/parsing.c.o:
+	$(MAKE) -f CMakeFiles/wolf3d.dir/build.make CMakeFiles/wolf3d.dir/Srcs/parsing.c.o
+.PHONY : Srcs/parsing.c.o
+
+Srcs/parsing.i: Srcs/parsing.c.i
+
+.PHONY : Srcs/parsing.i
+
+# target to preprocess a source file
+Srcs/parsing.c.i:
+	$(MAKE) -f CMakeFiles/wolf3d.dir/build.make CMakeFiles/wolf3d.dir/Srcs/parsing.c.i
+.PHONY : Srcs/parsing.c.i
+
+Srcs/parsing.s: Srcs/parsing.c.s
+
+.PHONY : Srcs/parsing.s
+
+# target to generate assembly for a file
+Srcs/parsing.c.s:
+	$(MAKE) -f CMakeFiles/wolf3d.dir/build.make CMakeFiles/wolf3d.dir/Srcs/parsing.c.s
+.PHONY : Srcs/parsing.c.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -206,9 +260,15 @@ help:
 	@echo "... Srcs/checker.o"
 	@echo "... Srcs/checker.i"
 	@echo "... Srcs/checker.s"
+	@echo "... Srcs/drawing.o"
+	@echo "... Srcs/drawing.i"
+	@echo "... Srcs/drawing.s"
 	@echo "... Srcs/main.o"
 	@echo "... Srcs/main.i"
 	@echo "... Srcs/main.s"
+	@echo "... Srcs/parsing.o"
+	@echo "... Srcs/parsing.i"
+	@echo "... Srcs/parsing.s"
 .PHONY : help
 
 

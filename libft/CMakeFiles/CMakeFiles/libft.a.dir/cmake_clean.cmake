@@ -11,6 +11,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/libft.a.dir/ft_atoi.c.o"
   "CMakeFiles/libft.a.dir/ft_itoa.c.o"
   "CMakeFiles/libft.a.dir/ft_bzero.c.o"
+  "CMakeFiles/libft.a.dir/ft_lst_push_back.c.o"
   "CMakeFiles/libft.a.dir/ft_lstadd.c.o"
   "CMakeFiles/libft.a.dir/ft_lstdel.c.o"
   "CMakeFiles/libft.a.dir/ft_lstdelone.c.o"
