@@ -37,6 +37,9 @@
 ../libft/CMakeFiles/CMakeFiles/libft.a.dir/ft_itoa.c.o: ../libft/ft_itoa.c
 ../libft/CMakeFiles/CMakeFiles/libft.a.dir/ft_itoa.c.o: ../libft/libft.h
 
+../libft/CMakeFiles/CMakeFiles/libft.a.dir/ft_lst_push_back.c.o: ../libft/ft_lst_push_back.c
+../libft/CMakeFiles/CMakeFiles/libft.a.dir/ft_lst_push_back.c.o: ../libft/libft.h
+
 ../libft/CMakeFiles/CMakeFiles/libft.a.dir/ft_lstadd.c.o: ../libft/ft_lstadd.c
 ../libft/CMakeFiles/CMakeFiles/libft.a.dir/ft_lstadd.c.o: ../libft/libft.h
 

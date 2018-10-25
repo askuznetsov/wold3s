@@ -220,6 +220,33 @@ Srcs/main.c.s:
 	$(MAKE) -f CMakeFiles/wolf3d.dir/build.make CMakeFiles/wolf3d.dir/Srcs/main.c.s
 .PHONY : Srcs/main.c.s
 
+Srcs/moving.o: Srcs/moving.c.o
+
+.PHONY : Srcs/moving.o
+
+# target to build an object file
+Srcs/moving.c.o:
+	$(MAKE) -f CMakeFiles/wolf3d.dir/build.make CMakeFiles/wolf3d.dir/Srcs/moving.c.o
+.PHONY : Srcs/moving.c.o
+
+Srcs/moving.i: Srcs/moving.c.i
+
+.PHONY : Srcs/moving.i
+
+# target to preprocess a source file
+Srcs/moving.c.i:
+	$(MAKE) -f CMakeFiles/wolf3d.dir/build.make CMakeFiles/wolf3d.dir/Srcs/moving.c.i
+.PHONY : Srcs/moving.c.i
+
+Srcs/moving.s: Srcs/moving.c.s
+
+.PHONY : Srcs/moving.s
+
+# target to generate assembly for a file
+Srcs/moving.c.s:
+	$(MAKE) -f CMakeFiles/wolf3d.dir/build.make CMakeFiles/wolf3d.dir/Srcs/moving.c.s
+.PHONY : Srcs/moving.c.s
+
 Srcs/parsing.o: Srcs/parsing.c.o
 
 .PHONY : Srcs/parsing.o
@@ -266,6 +293,9 @@ help:
 	@echo "... Srcs/main.o"
 	@echo "... Srcs/main.i"
 	@echo "... Srcs/main.s"
+	@echo "... Srcs/moving.o"
+	@echo "... Srcs/moving.i"
+	@echo "... Srcs/moving.s"
 	@echo "... Srcs/parsing.o"
 	@echo "... Srcs/parsing.i"
 	@echo "... Srcs/parsing.s"

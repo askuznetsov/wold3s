@@ -37,6 +37,9 @@
 ../libft/CMakeFiles/CMakeFiles/libft.a.dir/ft_itoa.c.o
  /Users/okuznets/Programming/wolf3d/libft/ft_itoa.c
  /Users/okuznets/Programming/wolf3d/libft/libft.h
+../libft/CMakeFiles/CMakeFiles/libft.a.dir/ft_lst_push_back.c.o
+ /Users/okuznets/Programming/wolf3d/libft/ft_lst_push_back.c
+ /Users/okuznets/Programming/wolf3d/libft/libft.h
 ../libft/CMakeFiles/CMakeFiles/libft.a.dir/ft_lstadd.c.o
  /Users/okuznets/Programming/wolf3d/libft/ft_lstadd.c
  /Users/okuznets/Programming/wolf3d/libft/libft.h

@@ -6,7 +6,7 @@
 /*   By: okuznets <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2018/10/20 13:10:39 by okuznets          #+#    #+#             */
-/*   Updated: 2018/10/25 13:15:11 by okuznets         ###   ########.fr       */
+/*   Updated: 2018/10/25 15:12:47 by okuznets         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -67,7 +67,7 @@ void	init_params(t_mlx *mlx)
 	mlx->pl_plane.x = 0;
 	mlx->pl_plane.y = 1;
 	mlx->rt_z = 0.04;
-	mlx->speed_move = 0.04;
+	mlx->spd_move = 0.04;
 	mlx->move_up = 0;
 	mlx->move_down = 0;
 	mlx->move_left = 0;

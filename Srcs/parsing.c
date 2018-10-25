@@ -6,7 +6,7 @@
 /*   By: okuznets <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2018/10/25 13:15:43 by okuznets          #+#    #+#             */
-/*   Updated: 2018/10/25 14:43:29 by okuznets         ###   ########.fr       */
+/*   Updated: 2018/10/25 14:47:23 by okuznets         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -65,7 +65,7 @@ int 	rd_file(char *argv, t_mlx *mlx)
 	fd = open(argv, O_RDONLY);
 	if (fd < 0 || (get_next_line(fd, &mlx->ln) < 1))
 		return (-1);
-	str_pos(mlx);
+	s_position(mlx);
 	while (get_next_line(fd, &mlx->ln) == 1)
 	{
 		ft_lst_push_back(&lst, mlx->ln, ft_strlen(mlx->ln));

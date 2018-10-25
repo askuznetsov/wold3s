@@ -6,7 +6,7 @@
 /*   By: okuznets <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2018/10/20 13:09:53 by okuznets          #+#    #+#             */
-/*   Updated: 2018/10/25 15:12:47 by okuznets         ###   ########.fr       */
+/*   Updated: 2018/10/25 16:20:32 by okuznets         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -71,7 +71,7 @@ typedef struct	s_mlx
 	double 			r_dst;
 	double			hit;
 	double 			hit_side;
-	double			speed_move;
+	double			spd_move;
 	unsigned int	color_one;
 	unsigned int	color_two;
 	unsigned int	color_three;
@@ -85,4 +85,6 @@ typedef struct	s_mlx
 int 	rd_file(char *argv, t_mlx *mlx);
 void	err(void);
 void	wrong_file(void);
+void	check_map(t_list *lst, t_mlx *mlx);
+void	s_position(t_mlx *mlx);
 #endif
