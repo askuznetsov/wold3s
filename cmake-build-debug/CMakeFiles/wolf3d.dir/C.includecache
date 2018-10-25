@@ -13,6 +13,12 @@ fcntl.h
 -
 /usr/local/include/mlx.h
 -
+math.h
+../Includes/math.h
+errno.h
+-
+stdio.h
+-
 
 ../libft/libft.h
 string.h
@@ -22,11 +28,29 @@ stdlib.h
 unistd.h
 -
 
+/Users/okuznets/Programming/wolf3d/Srcs/checker.c
+wolf3d.h
+/Users/okuznets/Programming/wolf3d/Srcs/wolf3d.h
+
+/Users/okuznets/Programming/wolf3d/Srcs/drawing.c
+wolf3d.h
+/Users/okuznets/Programming/wolf3d/Srcs/wolf3d.h
+
 /Users/okuznets/Programming/wolf3d/Srcs/main.c
 wolf3d.h
 /Users/okuznets/Programming/wolf3d/Srcs/wolf3d.h
-stdio.h
-/Users/okuznets/Programming/wolf3d/Srcs/stdio.h
+
+/Users/okuznets/Programming/wolf3d/Srcs/moving.c
+wolf3d.h
+/Users/okuznets/Programming/wolf3d/Srcs/wolf3d.h
+
+/Users/okuznets/Programming/wolf3d/Srcs/parsing.c
+wolf3d.h
+/Users/okuznets/Programming/wolf3d/Srcs/wolf3d.h
+
+/Users/okuznets/Programming/wolf3d/Srcs/raycasting.c
+wolf3d.h
+/Users/okuznets/Programming/wolf3d/Srcs/wolf3d.h
 
 /usr/local/include/mlx.h
 

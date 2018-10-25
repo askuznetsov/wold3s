@@ -274,6 +274,33 @@ Srcs/parsing.c.s:
 	$(MAKE) -f CMakeFiles/wolf3d.dir/build.make CMakeFiles/wolf3d.dir/Srcs/parsing.c.s
 .PHONY : Srcs/parsing.c.s
 
+Srcs/raycasting.o: Srcs/raycasting.c.o
+
+.PHONY : Srcs/raycasting.o
+
+# target to build an object file
+Srcs/raycasting.c.o:
+	$(MAKE) -f CMakeFiles/wolf3d.dir/build.make CMakeFiles/wolf3d.dir/Srcs/raycasting.c.o
+.PHONY : Srcs/raycasting.c.o
+
+Srcs/raycasting.i: Srcs/raycasting.c.i
+
+.PHONY : Srcs/raycasting.i
+
+# target to preprocess a source file
+Srcs/raycasting.c.i:
+	$(MAKE) -f CMakeFiles/wolf3d.dir/build.make CMakeFiles/wolf3d.dir/Srcs/raycasting.c.i
+.PHONY : Srcs/raycasting.c.i
+
+Srcs/raycasting.s: Srcs/raycasting.c.s
+
+.PHONY : Srcs/raycasting.s
+
+# target to generate assembly for a file
+Srcs/raycasting.c.s:
+	$(MAKE) -f CMakeFiles/wolf3d.dir/build.make CMakeFiles/wolf3d.dir/Srcs/raycasting.c.s
+.PHONY : Srcs/raycasting.c.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -299,6 +326,9 @@ help:
 	@echo "... Srcs/parsing.o"
 	@echo "... Srcs/parsing.i"
 	@echo "... Srcs/parsing.s"
+	@echo "... Srcs/raycasting.o"
+	@echo "... Srcs/raycasting.i"
+	@echo "... Srcs/raycasting.s"
 .PHONY : help
 
 

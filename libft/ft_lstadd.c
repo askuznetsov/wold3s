@@ -20,11 +20,3 @@ void	ft_lstadd(t_list **alst, t_list *new)
 		*alst = new;
 	}
 }
-
-void	ft_lst_push_back(t_list **begin, t_list *new)
-{
-	while (begin && *begin)
-		begin = &((*begin)->next);
-	if (begin)
-		*begin = new;
-}

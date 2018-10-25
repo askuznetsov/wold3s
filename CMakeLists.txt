@@ -20,6 +20,7 @@ set(LIBFT_BINARY_DIR ${CMAKE_CURRENT_SOURCE_DIR}/libft/CMakeFiles)
 set(SDIR Srcs)
 
 set(SOURCES
+		"raycasting.c"
 		"moving.c"
 		"drawing.c"
 		"parsing.c"

@@ -9,6 +9,7 @@ set(CMAKE_DEPENDS_CHECK_C
   "/Users/okuznets/Programming/wolf3d/Srcs/main.c" "/Users/okuznets/Programming/wolf3d/cmake-build-debug/CMakeFiles/wolf3d.dir/Srcs/main.c.o"
   "/Users/okuznets/Programming/wolf3d/Srcs/moving.c" "/Users/okuznets/Programming/wolf3d/cmake-build-debug/CMakeFiles/wolf3d.dir/Srcs/moving.c.o"
   "/Users/okuznets/Programming/wolf3d/Srcs/parsing.c" "/Users/okuznets/Programming/wolf3d/cmake-build-debug/CMakeFiles/wolf3d.dir/Srcs/parsing.c.o"
+  "/Users/okuznets/Programming/wolf3d/Srcs/raycasting.c" "/Users/okuznets/Programming/wolf3d/cmake-build-debug/CMakeFiles/wolf3d.dir/Srcs/raycasting.c.o"
   )
 set(CMAKE_C_COMPILER_ID "AppleClang")
 

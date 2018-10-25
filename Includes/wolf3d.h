@@ -6,7 +6,7 @@
 /*   By: okuznets <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2018/10/20 13:09:53 by okuznets          #+#    #+#             */
-/*   Updated: 2018/10/25 16:20:32 by okuznets         ###   ########.fr       */
+/*   Updated: 2018/10/25 16:50:31 by okuznets         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -87,4 +87,11 @@ void	err(void);
 void	wrong_file(void);
 void	check_map(t_list *lst, t_mlx *mlx);
 void	s_position(t_mlx *mlx);
+void	spd(t_mlx *mlx, int tmp);
+void	up(t_mlx *mlx);
+void	down(t_mlx *mlx);
+void	left(t_mlx *mlx);
+void	right(t_mlx *mlx);
+void	line_draw(t_mlx *mlx, int x);
+void	raycast(t_mlx *mlx);
 #endif

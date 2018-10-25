@@ -145,6 +145,9 @@
 		<Unit filename="/Users/okuznets/Programming/wolf3d/Srcs/parsing.c">
 			<Option target="wolf3d"/>
 		</Unit>
+		<Unit filename="/Users/okuznets/Programming/wolf3d/Srcs/raycasting.c">
+			<Option target="wolf3d"/>
+		</Unit>
 		<Unit filename="/Users/okuznets/Programming/wolf3d/libft/ft_abs.c">
 			<Option target="libft.a"/>
 		</Unit>

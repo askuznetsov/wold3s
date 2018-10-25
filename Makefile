@@ -6,7 +6,7 @@
 #    By: okuznets <marvin@42.fr>                    +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2018/10/20 13:10:06 by okuznets          #+#    #+#              #
-#    Updated: 2018/10/25 15:02:18 by okuznets         ###   ########.fr        #
+#    Updated: 2018/10/25 16:19:03 by okuznets         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -24,7 +24,8 @@ SRCS =	main.c\
 		checker.c\
 		parsing.c\
 		drawing.c\
-		moving.c
+		moving.c\
+		raycasting.c\
 
 HEADERS = wolf3d.h
 
