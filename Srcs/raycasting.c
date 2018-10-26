@@ -15,9 +15,11 @@
 void	check_distation(t_mlx *mlx)
 {
 	if (mlx->hit_side == 0)
-		mlx->r_dst = (mlx->r_map.x - mlx->pl_pos.x + (1 - mlx->step.x) / 2) / mlx->r_dir.x;
+		mlx->r_dst = (mlx->r_map.x - mlx->pl_pos.x +
+				(1 - mlx->step.x) / 2) / mlx->r_dir.x;
 	else
-		mlx->r_dst = (mlx->r_map.y - mlx->pl_pos.y + (1 - mlx->step.y) / 2) / mlx->r_dir.y;
+		mlx->r_dst = (mlx->r_map.y - mlx->pl_pos.y +
+				(1 - mlx->step.y) / 2) / mlx->r_dir.y;
 }
 
 void	distation(t_mlx *mlx)
@@ -49,22 +51,26 @@ void	moves(t_mlx *mlx)
 	if (mlx->r_dir.x < 0)
 	{
 		mlx->step.x = -1;
-		mlx->wall_side.x = (mlx->pl_pos.x - (int)mlx->pl_pos.x) * mlx->r_delta.x;
+		mlx->wall_side.x = (mlx->pl_pos.x -
+				(int)mlx->pl_pos.x) * mlx->r_delta.x;
 	}
 	else
 	{
 		mlx->step.x = 1;
-		mlx->wall_side.x = ((int)mlx->pl_pos.x + 1 - mlx->pl_pos.x) * mlx->r_delta.x;
+		mlx->wall_side.x = ((int)mlx->pl_pos.x + 1 -
+				mlx->pl_pos.x) * mlx->r_delta.x;
 	}
 	if (mlx->r_dir.y < 0)
 	{
 		mlx->step.y = -1;
-		mlx->wall_side.y = (mlx->pl_pos.y - (int)mlx->pl_pos.y) * mlx->r_delta.y;
+		mlx->wall_side.y = (mlx->pl_pos.y -
+				(int)mlx->pl_pos.y) * mlx->r_delta.y;
 	}
 	else
 	{
 		mlx->step.y = 1;
-		mlx->wall_side.y = ((int)mlx->pl_pos.y + 1 - mlx->pl_pos.y) * mlx->r_delta.y;
+		mlx->wall_side.y = ((int)mlx->pl_pos.y + 1 -
+				mlx->pl_pos.y) * mlx->r_delta.y;
 	}
 }
 
@@ -73,9 +79,9 @@ void	raycast(t_mlx *mlx)
 	int i;
 
 	i = 0;
-	while (i < mlx->weight)
+	while (i < mlx->width)
 	{
-		mlx->r_cam = 2 * i / (double)mlx->weight - 1;
+		mlx->r_cam = 2 * i / (double)mlx->width - 1;
 		mlx->r_dir.x = mlx->pl_dir.x + mlx->pl_plane.x * mlx->r_cam;
 		mlx->r_dir.y = mlx->pl_dir.y + mlx->pl_plane.y * mlx->r_cam;
 		mlx->r_map = (t_inervector){(int)mlx->pl_pos.x, (int)mlx->pl_pos.y};

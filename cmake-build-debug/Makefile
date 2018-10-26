@@ -193,6 +193,33 @@ Srcs/drawing.c.s:
 	$(MAKE) -f CMakeFiles/wolf3d.dir/build.make CMakeFiles/wolf3d.dir/Srcs/drawing.c.s
 .PHONY : Srcs/drawing.c.s
 
+Srcs/exitcolors.o: Srcs/exitcolors.c.o
+
+.PHONY : Srcs/exitcolors.o
+
+# target to build an object file
+Srcs/exitcolors.c.o:
+	$(MAKE) -f CMakeFiles/wolf3d.dir/build.make CMakeFiles/wolf3d.dir/Srcs/exitcolors.c.o
+.PHONY : Srcs/exitcolors.c.o
+
+Srcs/exitcolors.i: Srcs/exitcolors.c.i
+
+.PHONY : Srcs/exitcolors.i
+
+# target to preprocess a source file
+Srcs/exitcolors.c.i:
+	$(MAKE) -f CMakeFiles/wolf3d.dir/build.make CMakeFiles/wolf3d.dir/Srcs/exitcolors.c.i
+.PHONY : Srcs/exitcolors.c.i
+
+Srcs/exitcolors.s: Srcs/exitcolors.c.s
+
+.PHONY : Srcs/exitcolors.s
+
+# target to generate assembly for a file
+Srcs/exitcolors.c.s:
+	$(MAKE) -f CMakeFiles/wolf3d.dir/build.make CMakeFiles/wolf3d.dir/Srcs/exitcolors.c.s
+.PHONY : Srcs/exitcolors.c.s
+
 Srcs/main.o: Srcs/main.c.o
 
 .PHONY : Srcs/main.o
@@ -317,6 +344,9 @@ help:
 	@echo "... Srcs/drawing.o"
 	@echo "... Srcs/drawing.i"
 	@echo "... Srcs/drawing.s"
+	@echo "... Srcs/exitcolors.o"
+	@echo "... Srcs/exitcolors.i"
+	@echo "... Srcs/exitcolors.s"
 	@echo "... Srcs/main.o"
 	@echo "... Srcs/main.i"
 	@echo "... Srcs/main.s"

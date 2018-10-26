@@ -11,6 +11,11 @@ CMakeFiles/wolf3d.dir/Srcs/drawing.c.o: ../libft/libft.h
 CMakeFiles/wolf3d.dir/Srcs/drawing.c.o: ../Srcs/drawing.c
 CMakeFiles/wolf3d.dir/Srcs/drawing.c.o: /usr/local/include/mlx.h
 
+CMakeFiles/wolf3d.dir/Srcs/exitcolors.c.o: ../Includes/wolf3d.h
+CMakeFiles/wolf3d.dir/Srcs/exitcolors.c.o: ../libft/libft.h
+CMakeFiles/wolf3d.dir/Srcs/exitcolors.c.o: ../Srcs/exitcolors.c
+CMakeFiles/wolf3d.dir/Srcs/exitcolors.c.o: /usr/local/include/mlx.h
+
 CMakeFiles/wolf3d.dir/Srcs/main.c.o: ../Includes/wolf3d.h
 CMakeFiles/wolf3d.dir/Srcs/main.c.o: ../libft/libft.h
 CMakeFiles/wolf3d.dir/Srcs/main.c.o: ../Srcs/main.c

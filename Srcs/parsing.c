@@ -6,7 +6,7 @@
 /*   By: okuznets <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2018/10/25 13:15:43 by okuznets          #+#    #+#             */
-/*   Updated: 2018/10/25 14:47:23 by okuznets         ###   ########.fr       */
+/*   Updated: 2018/10/25 16:42:45 by okuznets         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,14 +14,14 @@
 
 void	err(void)
 {
-	perror("File opening error");
+	perror("\033[31mFile opening error");
 	exit(1);
 }
 
 void	map(char *s, t_mlx *mlx, int i)
 {
-	char 	**split;
-	int 	count;
+	char	**split;
+	int		count;
 
 	count = 0;
 	mlx->map[i] = (int*)malloc(sizeof(int) * mlx->s_height);
@@ -31,7 +31,8 @@ void	map(char *s, t_mlx *mlx, int i)
 		mlx->map[i][count] = ft_atoi(split[count]);
 		if ((i == 0 || i == mlx->s_height - 1) && mlx->map[i][count] != 1)
 			wrong_file();
-		if ((count == 0 || count == mlx->s_height - 1) && mlx->map[i][count] != 1)
+		if ((count == 0 ||
+			count == mlx->s_height - 1) && mlx->map[i][count] != 1)
 			wrong_file();
 		if (mlx->map[i][count] < 0 || mlx->map[i][count] > 1)
 			mlx->map[i][count] = 0;
@@ -56,9 +57,9 @@ void	free_lst(t_list *lst)
 	}
 }
 
-int 	rd_file(char *argv, t_mlx *mlx)
+int		rd_file(char *argv, t_mlx *mlx)
 {
-	int 	fd;
+	int		fd;
 	t_list	*lst;
 	t_list	*tmp;
 
@@ -73,9 +74,9 @@ int 	rd_file(char *argv, t_mlx *mlx)
 	}
 	close(fd);
 	check_map(lst, mlx);
-	mlx->map = (int**)malloc(sizeof(int*) * mlx->s_weight);
+	mlx->map = (int**)malloc(sizeof(int*) * mlx->s_width);
 	tmp = lst;
-	while (lst && mlx->i < mlx->s_weight)
+	while (lst && mlx->i < mlx->s_width)
 	{
 		map(lst->content, mlx, mlx->i);
 		lst = lst->next;

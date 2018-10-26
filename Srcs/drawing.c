@@ -37,14 +37,14 @@ void			put_pixel(t_mlx *mlx, int x, int y, unsigned int tmp)
 		else
 			tmp = mlx->color_four;
 	}
-	count = (y * mlx->weight + x);
-	if (count <= mlx->weight * mlx->height)
+	count = (y * mlx->width + x);
+	if (count <= mlx->width * mlx->height)
 		mlx->data[count] = tmp;
 }
 
 void			line_draw(t_mlx *mlx, int x)
 {
-	int 			y;
+	int				y;
 	unsigned int	tmp;
 
 	mlx->ln_h = (int)(mlx->height / mlx->r_dst);

@@ -12,7 +12,7 @@
 
 #include "libft.h"
 
-void 	ft_lst_push_back(t_list **tmp, void const *content, size_t content_size)
+void	ft_lst_push_back(t_list **tmp, void const *content, size_t content_size)
 {
 	t_list *lst;
 

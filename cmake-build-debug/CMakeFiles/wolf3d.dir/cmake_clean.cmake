@@ -1,4 +1,5 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/wolf3d.dir/Srcs/exitcolors.c.o"
   "CMakeFiles/wolf3d.dir/Srcs/raycasting.c.o"
   "CMakeFiles/wolf3d.dir/Srcs/moving.c.o"
   "CMakeFiles/wolf3d.dir/Srcs/drawing.c.o"

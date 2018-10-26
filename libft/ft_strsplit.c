@@ -58,6 +58,5 @@ char				**ft_strsplit(const char *s, char c)
 			k++;
 		i++;
 	}
-	free((void*)s);
 	return (str);
 }

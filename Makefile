@@ -6,7 +6,7 @@
 #    By: okuznets <marvin@42.fr>                    +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2018/10/20 13:10:06 by okuznets          #+#    #+#              #
-#    Updated: 2018/10/25 16:19:03 by okuznets         ###   ########.fr        #
+#    Updated: 2018/10/26 19:30:00 by okuznets         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -26,6 +26,7 @@ SRCS =	main.c\
 		drawing.c\
 		moving.c\
 		raycasting.c\
+		exitcolors.c\
 
 HEADERS = wolf3d.h
 

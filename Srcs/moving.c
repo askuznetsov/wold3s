@@ -34,17 +34,21 @@ void	spd(t_mlx *mlx, int tmp)
 
 void	up(t_mlx *mlx)
 {
-	if (mlx->map[(int)(mlx->pl_pos.x + mlx->pl_dir.x * mlx->spd_move)][(int)mlx->pl_pos.y] == 0)
+	if (mlx->map[(int)(mlx->pl_pos.x + mlx->pl_dir.x * mlx->spd_move)]
+	[(int)mlx->pl_pos.y] == 0)
 		mlx->pl_pos.x += mlx->pl_dir.x * mlx->spd_move;
-	if (mlx->map[(int)mlx->pl_pos.x][(int)(mlx->pl_pos.y + mlx->pl_dir.y * mlx->spd_move)] == 0)
+	if (mlx->map[(int)mlx->pl_pos.x]
+	[(int)(mlx->pl_pos.y + mlx->pl_dir.y * mlx->spd_move)] == 0)
 		mlx->pl_pos.y += mlx->pl_dir.y * mlx->spd_move;
 }
 
 void	down(t_mlx *mlx)
 {
-	if (mlx->map[(int)(mlx->pl_pos.x - mlx->pl_dir.x * mlx->spd_move)][(int)mlx->pl_pos.y] == 0)
+	if (mlx->map[(int)(mlx->pl_pos.x - mlx->pl_dir.x * mlx->spd_move)]
+	[(int)mlx->pl_pos.y] == 0)
 		mlx->pl_pos.x -= mlx->pl_dir.x * mlx->spd_move;
-	if (mlx->map[(int)mlx->pl_pos.x][(int)(mlx->pl_pos.y - mlx->pl_dir.y * mlx->spd_move)] == 0)
+	if (mlx->map[(int)mlx->pl_pos.x]
+	[(int)(mlx->pl_pos.y - mlx->pl_dir.y * mlx->spd_move)] == 0)
 		mlx->pl_pos.y -= mlx->pl_dir.y * mlx->spd_move;
 }
 
@@ -53,11 +57,15 @@ void	right(t_mlx *mlx)
 	t_vector old_direction;
 
 	old_direction.x = mlx->pl_dir.x;
-	mlx->pl_dir.x = mlx->pl_dir.x * cos(-mlx->rt_z) - mlx->pl_dir.y * sin(-mlx->rt_z);
-	mlx->pl_dir.y = old_direction.x * sin(-mlx->rt_z) + mlx->pl_dir.y * cos(-mlx->rt_z);
+	mlx->pl_dir.x = mlx->pl_dir.x * cos(-mlx->rt_z) -
+					mlx->pl_dir.y * sin(-mlx->rt_z);
+	mlx->pl_dir.y = old_direction.x * sin(-mlx->rt_z) +
+					mlx->pl_dir.y * cos(-mlx->rt_z);
 	old_direction.x = mlx->pl_plane.x;
-	mlx->pl_plane.x = mlx->pl_plane.x * cos(-mlx->rt_z) - mlx->pl_plane.y * sin(-mlx->rt_z);
-	mlx->pl_plane.y = old_direction.x * sin(-mlx->rt_z) + mlx->pl_plane.y * cos(-mlx->rt_z);
+	mlx->pl_plane.x = mlx->pl_plane.x * cos(-mlx->rt_z) -
+					mlx->pl_plane.y * sin(-mlx->rt_z);
+	mlx->pl_plane.y = old_direction.x * sin(-mlx->rt_z) +
+					mlx->pl_plane.y * cos(-mlx->rt_z);
 }
 
 void	left(t_mlx *mlx)
@@ -65,9 +73,13 @@ void	left(t_mlx *mlx)
 	t_vector old_direction;
 
 	old_direction.x = mlx->pl_dir.x;
-	mlx->pl_dir.x = mlx->pl_dir.x * cos(mlx->rt_z) - mlx->pl_dir.y * sin(mlx->rt_z);
-	mlx->pl_dir.y = old_direction.x * sin(mlx->rt_z) + mlx->pl_dir.y * cos(mlx->rt_z);
+	mlx->pl_dir.x = mlx->pl_dir.x * cos(mlx->rt_z) -
+					mlx->pl_dir.y * sin(mlx->rt_z);
+	mlx->pl_dir.y = old_direction.x * sin(mlx->rt_z) +
+					mlx->pl_dir.y * cos(mlx->rt_z);
 	old_direction.x = mlx->pl_plane.x;
-	mlx->pl_plane.x = mlx->pl_plane.x * cos(mlx->rt_z) - mlx->pl_plane.y * sin(mlx->rt_z);
-	mlx->pl_plane.y = old_direction.x * sin(mlx->rt_z) + mlx->pl_plane.y * cos(mlx->rt_z);
+	mlx->pl_plane.x = mlx->pl_plane.x * cos(mlx->rt_z) -
+					mlx->pl_plane.y * sin(mlx->rt_z);
+	mlx->pl_plane.y = old_direction.x * sin(mlx->rt_z) +
+					mlx->pl_plane.y * cos(mlx->rt_z);
 }

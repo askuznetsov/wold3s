@@ -19,6 +19,8 @@ errno.h
 -
 stdio.h
 -
+pthread.h
+-
 
 ../libft/libft.h
 string.h
@@ -29,26 +31,6 @@ unistd.h
 -
 
 /Users/okuznets/Programming/wolf3d/Srcs/checker.c
-wolf3d.h
-/Users/okuznets/Programming/wolf3d/Srcs/wolf3d.h
-
-/Users/okuznets/Programming/wolf3d/Srcs/drawing.c
-wolf3d.h
-/Users/okuznets/Programming/wolf3d/Srcs/wolf3d.h
-
-/Users/okuznets/Programming/wolf3d/Srcs/main.c
-wolf3d.h
-/Users/okuznets/Programming/wolf3d/Srcs/wolf3d.h
-
-/Users/okuznets/Programming/wolf3d/Srcs/moving.c
-wolf3d.h
-/Users/okuznets/Programming/wolf3d/Srcs/wolf3d.h
-
-/Users/okuznets/Programming/wolf3d/Srcs/parsing.c
-wolf3d.h
-/Users/okuznets/Programming/wolf3d/Srcs/wolf3d.h
-
-/Users/okuznets/Programming/wolf3d/Srcs/raycasting.c
 wolf3d.h
 /Users/okuznets/Programming/wolf3d/Srcs/wolf3d.h
 

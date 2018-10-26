@@ -20,6 +20,7 @@ set(LIBFT_BINARY_DIR ${CMAKE_CURRENT_SOURCE_DIR}/libft/CMakeFiles)
 set(SDIR Srcs)
 
 set(SOURCES
+		"exitcolors.c"
 		"raycasting.c"
 		"moving.c"
 		"drawing.c"
@@ -34,7 +35,7 @@ message("EXECUTABLE_OUTPUT_PATH - ${EXECUTABLE_OUTPUT_PATH}")
 
 set(CMAKE_C_FLAGS "-Wall -Werror -Wextra")
 
-add_executable(${NAME} ${SOURCES_REL})
+add_executable(${NAME} ${SOURCES_REL} Srcs/exitcolors.c)
 target_include_directories(${NAME} PRIVATE ${CMAKE_CURRENT_SOURCE_DIR}/${INC})
 
 add_subdirectory(${LIBFT_SOURCE_DIR} ${LIBFT_BINARY_DIR})

@@ -6,7 +6,7 @@
 /*   By: okuznets <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2018/10/24 13:05:56 by okuznets          #+#    #+#             */
-/*   Updated: 2018/10/24 13:32:41 by okuznets         ###   ########.fr       */
+/*   Updated: 2018/10/25 17:41:48 by okuznets         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,27 +14,27 @@
 
 void	wrong_file(void)
 {
-	printf("Wrong file\n");
+	ft_putstr("Wrong file!");
 	exit(1);
 }
 
 void	check_map(t_list *lst, t_mlx *mlx)
 {
 	int height;
-	int weight;
+	int width;
 
-	weight = 0;
+	width = 0;
 	while (lst)
 	{
 		height = ft_strlen(lst->content);
 		lst = lst->next;
-		weight++;
+		width++;
 	}
-	if ((height != (mlx->s_weight * 2) - 1) || (weight != mlx->s_height))
+	if ((height != (mlx->s_width * 2) - 1) || (width != mlx->s_height))
 		wrong_file();
 }
 
-int 	getting_number(char *s)
+int		getting_number(char *s)
 {
 	int	tmp;
 
@@ -58,15 +58,16 @@ void	position(char **s, t_mlx *mlx)
 
 	if (s[0] != NULL && s[1] != NULL)
 	{
-		mlx->s_weight = getting_number(s[0]);
+		mlx->s_width = getting_number(s[0]);
 		mlx->s_height = getting_number(s[1]);
-		if ((mlx->s_weight != mlx->s_height) || mlx->s_weight < 4)
+		if ((mlx->s_width != mlx->s_height) || mlx->s_width < 4)
 			wrong_file();
 	}
 	if (s[2] != NULL && s[3] != NULL)
 	{
-		mlx->pl_pos = (t_vector){getting_number(s[2]) + 0.5, getting_number(s[3]) + 0.5};
-		if (mlx->pl_pos.x < 1.5 || mlx->pl_pos.x > mlx->s_weight)
+		mlx->pl_pos = (t_vector){getting_number(s[2]) +
+		0.5, getting_number(s[3]) + 0.5};
+		if (mlx->pl_pos.x < 1.5 || mlx->pl_pos.x > mlx->s_width)
 			mlx->pl_pos.x = 1.5;
 		if (mlx->pl_pos.y < 1.5 || mlx->pl_pos.y >= mlx->s_height)
 			mlx->pl_pos.y = 1.5;
