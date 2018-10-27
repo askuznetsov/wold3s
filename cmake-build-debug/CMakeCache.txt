@@ -192,12 +192,6 @@ EXECUTABLE_OUTPUT_PATH:PATH=/Users/okuznets/Programming/wolf3d
 ProcessorCount_cmd_sysctl:FILEPATH=/usr/sbin/sysctl
 
 //Value Computed by CMake
-fractol_BINARY_DIR:STATIC=/Users/okuznets/Programming/wolf3d/cmake-build-debug
-
-//Value Computed by CMake
-fractol_SOURCE_DIR:STATIC=/Users/okuznets/Programming/wolf3d
-
-//Value Computed by CMake
 libft.a_BINARY_DIR:STATIC=/Users/okuznets/Programming/wolf3d/libft/CMakeFiles
 
 //Value Computed by CMake
