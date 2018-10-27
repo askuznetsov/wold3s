@@ -30,7 +30,7 @@ void	check_map(t_list *lst, t_mlx *mlx)
 		lst = lst->next;
 		width++;
 	}
-	if ((height != (mlx->s_width * 2) - 1) || (width != mlx->s_height))
+	if (width != mlx->s_height)
 		wrong_file();
 }
 

@@ -26,13 +26,12 @@ void	map(char *s, t_mlx *mlx, int i)
 	count = 0;
 	mlx->map[i] = (int*)malloc(sizeof(int) * mlx->s_height);
 	split = ft_strsplit(s, ' ');
-	while (split[count])
+	while (split[count] && count <= mlx->s_height)
 	{
 		mlx->map[i][count] = ft_atoi(split[count]);
 		if ((i == 0 || i == mlx->s_height - 1) && mlx->map[i][count] != 1)
 			wrong_file();
-		if ((count == 0 ||
-			count == mlx->s_height - 1) && mlx->map[i][count] != 1)
+		if (count == 0 && mlx->map[i][count] != 1)
 			wrong_file();
 		if (mlx->map[i][count] < 0 || mlx->map[i][count] > 1)
 			mlx->map[i][count] = 0;
