@@ -30,7 +30,7 @@ stdlib.h
 unistd.h
 -
 
-/Users/okuznets/Programming/wolf3d/Srcs/main.c
+/Users/okuznets/Programming/wolf3d/Srcs/parsing.c
 wolf3d.h
 /Users/okuznets/Programming/wolf3d/Srcs/wolf3d.h
 

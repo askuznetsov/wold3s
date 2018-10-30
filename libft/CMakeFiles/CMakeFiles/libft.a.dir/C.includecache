@@ -6,10 +6,6 @@
 
 #IncludeRegexTransform: 
 
-/Users/okuznets/Programming/wolf3d/libft/ft_strsplit.c
-libft.h
-/Users/okuznets/Programming/wolf3d/libft/libft.h
-
 /Users/okuznets/Programming/wolf3d/libft/get_next_line.c
 get_next_line.h
 /Users/okuznets/Programming/wolf3d/libft/get_next_line.h

@@ -60,7 +60,7 @@ void	position(char **s, t_mlx *mlx)
 	{
 		mlx->s_width = getting_number(s[0]);
 		mlx->s_height = getting_number(s[1]);
-		if ((mlx->s_width != mlx->s_height) || mlx->s_width < 4)
+		if ((mlx->s_width != mlx->s_height) || mlx->s_width < 5)
 			wrong_file();
 	}
 	if (s[2] != NULL && s[3] != NULL)

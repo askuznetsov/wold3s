@@ -61,15 +61,60 @@ int		rd_file(char *argv, t_mlx *mlx)
 	int		fd;
 	t_list	*lst;
 	t_list	*tmp;
+	
+	char *a;
+	int i = 0;
+	int z = 1;
 
 	fd = open(argv, O_RDONLY);
 	if (fd < 0 || (get_next_line(fd, &mlx->ln) < 1))
 		return (-1);
+	a = mlx->ln;
+	while (a[i] != '\0')
+	{
+        if ((a[i] >= '0' && a[i] <= '9') || a[i] == ' ' || a[i] == '\n')
+        {
+            i++;
+            continue;
+        }
+        else
+            wrong_file();
+    }
 	s_position(mlx);
 	while (get_next_line(fd, &mlx->ln) == 1)
-	{
+    {
+	    i = 0;
+	    a = mlx->ln;
+	    while (a[i] != '\0')
+        {
+            if (z == 1 && (a[i] == '1' || a[i] == ' ' || a[i] == '\n'))
+            {
+                i++;
+                continue;
+            }
+            if (z > 1 && ((a[i] >= '0' && a[i] <= '9') || a[i] == ' ' || a[i] == '\n'))
+            {
+                if (i == 0 && a[i] != '1')
+                    wrong_file();
+                if (i == (mlx->s_width * 2 - 2) && a[i] != '1')
+                    wrong_file();
+                i++;
+                continue;
+            }
+            if (z == mlx->s_height && (a[i] == '1' || a[i] == ' ' || a[i] == '\n'))
+            {
+                i++;
+                continue;
+            }
+            else
+                wrong_file();
+        }
+        if (i != mlx->s_width * 2 - 1)
+            wrong_file();
+        printf("%d\n", i);
 		ft_lst_push_back(&lst, mlx->ln, ft_strlen(mlx->ln));
 		free(mlx->ln);
+		z++;
 	}
 	close(fd);
 	check_map(lst, mlx);
