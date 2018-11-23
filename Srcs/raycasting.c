@@ -12,88 +12,91 @@
 
 #include "wolf3d.h"
 
-void	check_distation(t_mlx *mlx)
+void	check_distation(t_wolf3d *wolf)
 {
-	if (mlx->hit_side == 0)
-		mlx->r_dst = (mlx->r_map.x - mlx->pl_pos.x +
-				(1 - mlx->step.x) / 2) / mlx->r_dir.x;
+	if (wolf->hit_side == 0)
+		wolf->r_dst = (wolf->r_map.x - wolf->pl_pos.x +
+				(1 - wolf->step.x) / 2) / wolf->r_dir.x;
 	else
-		mlx->r_dst = (mlx->r_map.y - mlx->pl_pos.y +
-				(1 - mlx->step.y) / 2) / mlx->r_dir.y;
+		wolf->r_dst = (wolf->r_map.y - wolf->pl_pos.y +
+				(1 - wolf->step.y) / 2) / wolf->r_dir.y;
 }
 
-void	distation(t_mlx *mlx)
+void	distation(t_wolf3d *wolf)
 {
-	while (mlx->hit == 0)
+	while (wolf->hit == 0)
 	{
-		if (mlx->wall_side.x < mlx->wall_side.y)
+		if (wolf->wall_side.x < wolf->wall_side.y)
 		{
-			mlx->wall_side.x += mlx->r_delta.x;
-			mlx->r_map.x += mlx->step.x;
-			mlx->hit_side = 0;
+			wolf->wall_side.x += wolf->r_delta.x;
+			wolf->r_map.x += wolf->step.x;
+			wolf->hit_side = 0;
 		}
 		else
 		{
-			mlx->wall_side.y += mlx->r_delta.y;
-			mlx->r_map.y += mlx->step.y;
-			mlx->hit_side = 1;
+			wolf->wall_side.y += wolf->r_delta.y;
+			wolf->r_map.y += wolf->step.y;
+			wolf->hit_side = 1;
 		}
-		if (mlx->map[mlx->r_map.x][mlx->r_map.y] > 0)
+		if (wolf->map[wolf->r_map.x][wolf->r_map.y] > 0)
 		{
-			mlx->hit = 1;
-			check_distation(mlx);
+			wolf->hit = 1;
+			check_distation(wolf);
 		}
 	}
 }
 
-void	moves(t_mlx *mlx)
+void	moves(t_wolf3d *wolf)
 {
-	if (mlx->r_dir.x < 0)
+	if (wolf->r_dir.x < 0)
 	{
-		mlx->step.x = -1;
-		mlx->wall_side.x = (mlx->pl_pos.x -
-				(int)mlx->pl_pos.x) * mlx->r_delta.x;
+		wolf->step.x = -1;
+		wolf->wall_side.x = (wolf->pl_pos.x -
+				(int)wolf->pl_pos.x) * wolf->r_delta.x;
 	}
 	else
 	{
-		mlx->step.x = 1;
-		mlx->wall_side.x = ((int)mlx->pl_pos.x + 1 -
-				mlx->pl_pos.x) * mlx->r_delta.x;
+		wolf->step.x = 1;
+		wolf->wall_side.x = ((int)wolf->pl_pos.x + 1 -
+				wolf->pl_pos.x) * wolf->r_delta.x;
 	}
-	if (mlx->r_dir.y < 0)
+	if (wolf->r_dir.y < 0)
 	{
-		mlx->step.y = -1;
-		mlx->wall_side.y = (mlx->pl_pos.y -
-				(int)mlx->pl_pos.y) * mlx->r_delta.y;
+		wolf->step.y = -1;
+		wolf->wall_side.y = (wolf->pl_pos.y -
+				(int)wolf->pl_pos.y) * wolf->r_delta.y;
 	}
 	else
 	{
-		mlx->step.y = 1;
-		mlx->wall_side.y = ((int)mlx->pl_pos.y + 1 -
-				mlx->pl_pos.y) * mlx->r_delta.y;
+		wolf->step.y = 1;
+		wolf->wall_side.y = ((int)wolf->pl_pos.y + 1 -
+				wolf->pl_pos.y) * wolf->r_delta.y;
 	}
 }
 
-void	raycast(t_mlx *mlx)
+void	raycast(t_wolf3d *wolf)
 {
 	int i;
 
 	i = 0;
-	while (i < mlx->width)
+	ft_bzero(wolf->addr, SCR_WDTH * SCR_HGHT * sizeof(int));
+	while (i < SCR_WDTH)
 	{
-		mlx->r_cam = 2 * i / (double)mlx->width - 1;
-		mlx->r_dir.x = mlx->pl_dir.x + mlx->pl_plane.x * mlx->r_cam;
-		mlx->r_dir.y = mlx->pl_dir.y + mlx->pl_plane.y * mlx->r_cam;
-		mlx->r_map = (t_inervector){(int)mlx->pl_pos.x, (int)mlx->pl_pos.y};
-		mlx->r_delta.x = sqrt(1 + pow(mlx->r_dir.y, 2) / pow(mlx->r_dir.x, 2));
-		mlx->r_delta.y = sqrt(1 + pow(mlx->r_dir.x, 2) / pow(mlx->r_dir.y, 2));
-		mlx->hit = 0;
-		mlx->r_dst = -1;
-		mlx->hit_side = -1;
-		moves(mlx);
-		distation(mlx);
-		line_draw(mlx, i);
+		wolf->r_cam = 2 * i / (double)SCR_WDTH - 1;
+		wolf->r_dir.x = wolf->pl_dir.x + wolf->pl_plane.x * wolf->r_cam;
+		wolf->r_dir.y = wolf->pl_dir.y + wolf->pl_plane.y * wolf->r_cam;
+		wolf->r_map = (t_revdir){(int)wolf->pl_pos.x, (int)wolf->pl_pos.y};
+		wolf->r_delta.x = sqrt(1 + pow(wolf->r_dir.y, 2) /
+		pow(wolf->r_dir.x, 2));
+		wolf->r_delta.y = sqrt(1 + pow(wolf->r_dir.x, 2) /
+		pow(wolf->r_dir.y, 2));
+		wolf->hit = 0;
+		wolf->r_dst = -1;
+		wolf->hit_side = -1;
+		moves(wolf);
+		distation(wolf);
+		draw(wolf, i);
 		i++;
 	}
-	mlx_put_image_to_window(mlx->mlx, mlx->win, mlx->img, 0, 0);
+	mlx_put_image_to_window(wolf->mlx, wolf->win, wolf->img, 0, 0);
 }

@@ -1,6 +1,0 @@
-/Users/okuznets/Programming/wolf3d/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/Users/okuznets/Programming/wolf3d/cmake-build-debug/CMakeFiles/edit_cache.dir
-/Users/okuznets/Programming/wolf3d/cmake-build-debug/CMakeFiles/wolf3d.dir
-/Users/okuznets/Programming/wolf3d/libft/CMakeFiles/CMakeFiles/rebuild_cache.dir
-/Users/okuznets/Programming/wolf3d/libft/CMakeFiles/CMakeFiles/edit_cache.dir
-/Users/okuznets/Programming/wolf3d/libft/CMakeFiles/CMakeFiles/libft.a.dir

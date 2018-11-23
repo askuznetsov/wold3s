@@ -27,6 +27,7 @@ SRCS =	main.c\
 		moving.c\
 		raycasting.c\
 		exitcolors.c\
+		textures.c\
 
 HEADERS = wolf3d.h
 

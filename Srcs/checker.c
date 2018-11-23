@@ -12,26 +12,24 @@
 
 #include "wolf3d.h"
 
-void	wrong_file(void)
+void	wrong(void)
 {
 	ft_putstr("Wrong file!");
 	exit(1);
 }
 
-void	check_map(t_list *lst, t_mlx *mlx)
+void	check_map(t_list *lst, t_wolf3d *wolf)
 {
-	int height;
 	int width;
 
 	width = 0;
 	while (lst)
 	{
-		height = ft_strlen(lst->content);
 		lst = lst->next;
 		width++;
 	}
-	if (width != mlx->s_height)
-		wrong_file();
+	if (width != wolf->h_val)
+		wrong();
 }
 
 int		getting_number(char *s)
@@ -52,35 +50,37 @@ int		getting_number(char *s)
 	return (tmp);
 }
 
-void	position(char **s, t_mlx *mlx)
+void	position(char **s, t_wolf3d *wolf)
 {
 	int i;
 
 	if (s[0] != NULL && s[1] != NULL)
 	{
-		mlx->s_width = getting_number(s[0]);
-		mlx->s_height = getting_number(s[1]);
-		if ((mlx->s_width != mlx->s_height) || mlx->s_width < 5)
-			wrong_file();
+		wolf->w_val = getting_number(s[0]);
+		wolf->h_val = getting_number(s[1]);
+		if ((wolf->w_val != wolf->h_val) || wolf->w_val < 5)
+			wrong();
 	}
 	if (s[2] != NULL && s[3] != NULL)
 	{
-		mlx->pl_pos = (t_vector){getting_number(s[2]) +
+		wolf->pl_pos = (t_dir){getting_number(s[2]) +
 		0.5, getting_number(s[3]) + 0.5};
-		if (mlx->pl_pos.x < 1.5 || mlx->pl_pos.x > mlx->s_width)
-			mlx->pl_pos.x = 1.5;
-		if (mlx->pl_pos.y < 1.5 || mlx->pl_pos.y >= mlx->s_height)
-			mlx->pl_pos.y = 1.5;
+		if (wolf->pl_pos.x < 1.5 || wolf->pl_pos.x > wolf->w_val)
+			wolf->pl_pos.x = 1.5;
+		if (wolf->pl_pos.y < 1.5 || wolf->pl_pos.y >= wolf->h_val)
+			wolf->pl_pos.y = 1.5;
 	}
+	else
+		wrong();
 	i = -1;
 	while (s[++i])
 		free(s[i]);
 	free(s);
 }
 
-void	s_position(t_mlx *mlx)
+void	s_position(t_wolf3d *wolf)
 {
-	mlx->str = ft_strsplit(mlx->ln, ' ');
-	free(mlx->ln);
-	position(mlx->str, mlx);
+	wolf->str = ft_strsplit(wolf->ln, ' ');
+	free(wolf->ln);
+	position(wolf->str, wolf);
 }

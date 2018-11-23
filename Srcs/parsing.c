@@ -12,29 +12,29 @@
 
 #include "wolf3d.h"
 
-void	err(void)
+void	perr(void)
 {
 	perror("\033[31mFile opening error");
 	exit(1);
 }
 
-void	map(char *s, t_mlx *mlx, int i)
+void	map(char *s, t_wolf3d *wolf, int i)
 {
 	char	**split;
 	int		count;
 
 	count = 0;
-	mlx->map[i] = (int*)malloc(sizeof(int) * mlx->s_height);
+	wolf->map[i] = (int*)malloc(sizeof(int) * wolf->h_val);
 	split = ft_strsplit(s, ' ');
-	while (split[count] && count <= mlx->s_height)
+	while (split[count] && count <= wolf->h_val)
 	{
-		mlx->map[i][count] = ft_atoi(split[count]);
-		if ((i == 0 || i == mlx->s_height - 1) && mlx->map[i][count] != 1)
-			wrong_file();
-		if (count == 0 && mlx->map[i][count] != 1)
-			wrong_file();
-		if (mlx->map[i][count] < 0 || mlx->map[i][count] > 1)
-			mlx->map[i][count] = 0;
+		wolf->map[i][count] = ft_atoi(split[count]);
+		if ((i == 0 || i == wolf->h_val - 1) && wolf->map[i][count] != 1)
+			wrong();
+		if (count == 0 && wolf->map[i][count] != 1)
+			wrong();
+		if (wolf->map[i][count] < 0)
+			wolf->map[i][count] = 0;
 		count++;
 	}
 	count = -1;
@@ -56,76 +56,29 @@ void	free_lst(t_list *lst)
 	}
 }
 
-int		rd_file(char *argv, t_mlx *mlx)
+int		rd_file(char *argv, t_wolf3d *wolf)
 {
-	int		fd;
 	t_list	*lst;
-	t_list	*tmp;
-	
-	char *a;
-	int i = 0;
-	int z = 1;
+	char	*a;
+	int		i;
+	int		z;
 
-	fd = open(argv, O_RDONLY);
-	if (fd < 0 || (get_next_line(fd, &mlx->ln) < 1))
+	z = 1;
+	wolf->fd = open(argv, O_RDONLY);
+	if (wolf->fd < 0 || (get_next_line(wolf->fd, &wolf->ln) < 1))
 		return (-1);
-	a = mlx->ln;
-	while (a[i] != '\0')
+	a = wolf->ln;
+	check_one(a);
+	s_position(wolf);
+	while (get_next_line(wolf->fd, &wolf->ln) == 1)
 	{
-        if ((a[i] >= '0' && a[i] <= '9') || a[i] == ' ' || a[i] == '\n')
-        {
-            i++;
-            continue;
-        }
-        else
-            wrong_file();
-    }
-	s_position(mlx);
-	while (get_next_line(fd, &mlx->ln) == 1)
-    {
-	    i = 0;
-	    a = mlx->ln;
-	    while (a[i] != '\0')
-        {
-            if (z == 1 && (a[i] == '1' || a[i] == ' ' || a[i] == '\n'))
-            {
-                i++;
-                continue;
-            }
-            if (z > 1 && ((a[i] >= '0' && a[i] <= '9') || a[i] == ' ' || a[i] == '\n'))
-            {
-                if (i == 0 && a[i] != '1')
-                    wrong_file();
-                if (i == (mlx->s_width * 2 - 2) && a[i] != '1')
-                    wrong_file();
-                i++;
-                continue;
-            }
-            if (z == mlx->s_height && (a[i] == '1' || a[i] == ' ' || a[i] == '\n'))
-            {
-                i++;
-                continue;
-            }
-            else
-                wrong_file();
-        }
-        if (i != mlx->s_width * 2 - 1)
-            wrong_file();
-        printf("%d\n", i);
-		ft_lst_push_back(&lst, mlx->ln, ft_strlen(mlx->ln));
-		free(mlx->ln);
+		i = check_two(wolf, z);
+		if (i != wolf->w_val * 2 - 1)
+			wrong();
+		ft_lst_push_back(&lst, wolf->ln, ft_strlen(wolf->ln));
+		free(wolf->ln);
 		z++;
 	}
-	close(fd);
-	check_map(lst, mlx);
-	mlx->map = (int**)malloc(sizeof(int*) * mlx->s_width);
-	tmp = lst;
-	while (lst && mlx->i < mlx->s_width)
-	{
-		map(lst->content, mlx, mlx->i);
-		lst = lst->next;
-		mlx->i++;
-	}
-	free_lst(tmp);
+	check_three(lst, wolf);
 	return (0);
 }

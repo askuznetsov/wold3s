@@ -12,74 +12,74 @@
 
 #include "wolf3d.h"
 
-void	spd(t_mlx *mlx, int tmp)
+void	spd(t_wolf3d *wolf, int tmp)
 {
 	if (tmp == 1)
 	{
-		if (mlx->spd_move < 0.1)
+		if (wolf->spd_mv < 0.1)
 		{
-			mlx->rt_z += 0.01;
-			mlx->spd_move += 0.01;
+			wolf->rt_z += 0.01;
+			wolf->spd_mv += 0.01;
 		}
 	}
 	else
 	{
-		if (mlx->spd_move > 0.01)
+		if (wolf->spd_mv > 0.01)
 		{
-			mlx->rt_z -= 0.01;
-			mlx->spd_move -= 0.01;
+			wolf->rt_z -= 0.01;
+			wolf->spd_mv -= 0.01;
 		}
 	}
 }
 
-void	up(t_mlx *mlx)
+void	up(t_wolf3d *wolf)
 {
-	if (mlx->map[(int)(mlx->pl_pos.x + mlx->pl_dir.x * mlx->spd_move)]
-	[(int)mlx->pl_pos.y] == 0)
-		mlx->pl_pos.x += mlx->pl_dir.x * mlx->spd_move;
-	if (mlx->map[(int)mlx->pl_pos.x]
-	[(int)(mlx->pl_pos.y + mlx->pl_dir.y * mlx->spd_move)] == 0)
-		mlx->pl_pos.y += mlx->pl_dir.y * mlx->spd_move;
+	if (wolf->map[(int)(wolf->pl_pos.x + wolf->pl_dir.x * wolf->spd_mv * 2.5)]
+	[(int)wolf->pl_pos.y] == 0)
+		wolf->pl_pos.x += wolf->pl_dir.x * wolf->spd_mv;
+	if (wolf->map[(int)wolf->pl_pos.x]
+	[(int)(wolf->pl_pos.y + wolf->pl_dir.y * wolf->spd_mv * 2.5)] == 0)
+		wolf->pl_pos.y += wolf->pl_dir.y * wolf->spd_mv;
 }
 
-void	down(t_mlx *mlx)
+void	down(t_wolf3d *wolf)
 {
-	if (mlx->map[(int)(mlx->pl_pos.x - mlx->pl_dir.x * mlx->spd_move)]
-	[(int)mlx->pl_pos.y] == 0)
-		mlx->pl_pos.x -= mlx->pl_dir.x * mlx->spd_move;
-	if (mlx->map[(int)mlx->pl_pos.x]
-	[(int)(mlx->pl_pos.y - mlx->pl_dir.y * mlx->spd_move)] == 0)
-		mlx->pl_pos.y -= mlx->pl_dir.y * mlx->spd_move;
+	if (wolf->map[(int)(wolf->pl_pos.x - wolf->pl_dir.x * wolf->spd_mv * 2.5)]
+	[(int)wolf->pl_pos.y] == 0)
+		wolf->pl_pos.x -= wolf->pl_dir.x * wolf->spd_mv;
+	if (wolf->map[(int)wolf->pl_pos.x]
+	[(int)(wolf->pl_pos.y - wolf->pl_dir.y * wolf->spd_mv * 2.5)] == 0)
+		wolf->pl_pos.y -= wolf->pl_dir.y * wolf->spd_mv;
 }
 
-void	right(t_mlx *mlx)
+void	right(t_wolf3d *wolf)
 {
-	t_vector old_direction;
+	t_dir old_direction;
 
-	old_direction.x = mlx->pl_dir.x;
-	mlx->pl_dir.x = mlx->pl_dir.x * cos(-mlx->rt_z) -
-					mlx->pl_dir.y * sin(-mlx->rt_z);
-	mlx->pl_dir.y = old_direction.x * sin(-mlx->rt_z) +
-					mlx->pl_dir.y * cos(-mlx->rt_z);
-	old_direction.x = mlx->pl_plane.x;
-	mlx->pl_plane.x = mlx->pl_plane.x * cos(-mlx->rt_z) -
-					mlx->pl_plane.y * sin(-mlx->rt_z);
-	mlx->pl_plane.y = old_direction.x * sin(-mlx->rt_z) +
-					mlx->pl_plane.y * cos(-mlx->rt_z);
+	old_direction.x = wolf->pl_dir.x;
+	wolf->pl_dir.x = wolf->pl_dir.x * cos(-wolf->rt_z) -
+					wolf->pl_dir.y * sin(-wolf->rt_z);
+	wolf->pl_dir.y = old_direction.x * sin(-wolf->rt_z) +
+					wolf->pl_dir.y * cos(-wolf->rt_z);
+	old_direction.x = wolf->pl_plane.x;
+	wolf->pl_plane.x = wolf->pl_plane.x * cos(-wolf->rt_z) -
+					wolf->pl_plane.y * sin(-wolf->rt_z);
+	wolf->pl_plane.y = old_direction.x * sin(-wolf->rt_z) +
+					wolf->pl_plane.y * cos(-wolf->rt_z);
 }
 
-void	left(t_mlx *mlx)
+void	left(t_wolf3d *wolf)
 {
-	t_vector old_direction;
+	t_dir old_direction;
 
-	old_direction.x = mlx->pl_dir.x;
-	mlx->pl_dir.x = mlx->pl_dir.x * cos(mlx->rt_z) -
-					mlx->pl_dir.y * sin(mlx->rt_z);
-	mlx->pl_dir.y = old_direction.x * sin(mlx->rt_z) +
-					mlx->pl_dir.y * cos(mlx->rt_z);
-	old_direction.x = mlx->pl_plane.x;
-	mlx->pl_plane.x = mlx->pl_plane.x * cos(mlx->rt_z) -
-					mlx->pl_plane.y * sin(mlx->rt_z);
-	mlx->pl_plane.y = old_direction.x * sin(mlx->rt_z) +
-					mlx->pl_plane.y * cos(mlx->rt_z);
+	old_direction.x = wolf->pl_dir.x;
+	wolf->pl_dir.x = wolf->pl_dir.x * cos(wolf->rt_z) -
+					wolf->pl_dir.y * sin(wolf->rt_z);
+	wolf->pl_dir.y = old_direction.x * sin(wolf->rt_z) +
+					wolf->pl_dir.y * cos(wolf->rt_z);
+	old_direction.x = wolf->pl_plane.x;
+	wolf->pl_plane.x = wolf->pl_plane.x * cos(wolf->rt_z) -
+					wolf->pl_plane.y * sin(wolf->rt_z);
+	wolf->pl_plane.y = old_direction.x * sin(wolf->rt_z) +
+					wolf->pl_plane.y * cos(wolf->rt_z);
 }
