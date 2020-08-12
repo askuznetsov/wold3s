@@ -36,3 +36,7 @@ W, A, S, D and arrows keys - move set.
 F - change from texture mode to color.
 
 Plus and minus - configure movespeed.
+
+## Main quest
+
+Try to find the secret room.
