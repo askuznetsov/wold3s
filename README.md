@@ -32,5 +32,7 @@ You can run the project with the following command:
 ## Controls
 
 W, A, S, D and arrows keys - move set.
+
 F - change from texture mode to color.
+
 Plus and minus - configure movespeed.
