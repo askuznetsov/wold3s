@@ -20,7 +20,7 @@
 # define T_HGHT 64
 # include "libft.h"
 # include <fcntl.h>
-# include "/usr/local/include/mlx.h"
+# include "../minilibx_macos/mlx.h"
 # include "math.h"
 # include <errno.h>
 # include <stdio.h>

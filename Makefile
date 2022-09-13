@@ -41,7 +41,7 @@ all : $(NAME)
 
 $(NAME) : $(ODIR)/ $(OBJ_R)
 	make -C ./libft
-	$(CC) $(CFLAGS) -o $(NAME) $(OBJ_R) ./libft/libft.a  -L /usr/local/lib -lmlx -framework OpenGL -framework AppKit
+	$(CC) $(CFLAGS) -o $(NAME) $(OBJ_R) ./libft/libft.a  -L ./minilibx_macos/ -lmlx -framework OpenGL -framework AppKit
 
 .PHONY: clean fclean re
 
