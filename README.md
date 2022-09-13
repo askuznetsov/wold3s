@@ -1,5 +1,7 @@
 # Wolf3d
 
+## !!IMPORTANT. After a while i came back to check the project and somehow getting seg fault now 😅. I really tried to fix it, but still can't find where the bug is. SO, if you are some kind to find a solution here, I would really appreciate it.
+
 ![wolf3d screenshot](/img/wolf3d.png)
 
 This project is inspired by the world-famous eponymous 90’s game, which
